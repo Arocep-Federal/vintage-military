@@ -153,6 +153,7 @@
     video.addEventListener('ended', function(){
       // Reset the video to 0
       video.currentTime = 0;
+      console.log("video ended");
       // And pause ready for
       video.pause();
     });

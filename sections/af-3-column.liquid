@@ -1,6 +1,6 @@
 {% style %}
   .vintage-military-{{ section.id }} {
-    padding:20px;
+    padding:100px;
     position:relative;
   }
   .vintage-military-{{ section.id }} h3 {
@@ -23,6 +23,8 @@
         background-color: {{section.settings.background}};
         color: {{section.settings.fontcolor}};
     }
+
+
 {% endstyle %}
 
 {%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}

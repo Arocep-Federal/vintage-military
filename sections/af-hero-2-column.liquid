@@ -34,12 +34,22 @@
           margin-bottom:0;
         }
 
+        .hero-wrap {
+          width: 95vw;
+          margin:0 auto;
+          position:relative;
+          z-index:2;
+          top:-50px;
+          overflow:hidden;
+          height:550px;
+          border-radius: 15px;
+        }
     }
     @media only screen and (min-width: 769px){
 
         .military-background--{{ section.id }} {
             padding-bottom:850px;
-        }
+          }
     }
 
   .shopify-section:has(.military-background--{{ section.id }}) .text-center {
@@ -54,7 +64,7 @@
       z-index:2;
       top:-50px;
       overflow:hidden;
-      height:550px;
+      height:150px;
       border-radius: 15px;
     }
     .hero-img img {width:100%; height: auto}

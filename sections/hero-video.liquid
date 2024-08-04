@@ -68,9 +68,9 @@ video.addEventListener('ended', function(){
         id="Mp4Video-{{ section.id }}"
         src="{{ section.settings.video_url }}"
         {% comment %} 
+        loop 
       {% endcomment %}
         playsinline="true"
-        loop 
         muted="true"
         autoplay="true"
         controls="controls"

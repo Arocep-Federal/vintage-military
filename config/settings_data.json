@@ -981,21 +981,6 @@
           "link": "",
           "link_text": "Optional button"
         }
-      },
-      "collection_callout_q9yebF": {
-        "type": "collection-callout",
-        "settings": {
-          "collection": "",
-          "subtitle": "Brand new",
-          "title": "Collection callout",
-          "text": "Use this section to easily call attention to one of your collections. We'll show photos of the first 5 products.",
-          "cta_text1": "Shop Jackets",
-          "cta_link1": "",
-          "cta_text2": "Shop All Mens",
-          "cta_link2": "",
-          "layout": "right",
-          "divider": false
-        }
       }
     },
     "content_for_index": [
@@ -1005,7 +990,6 @@
       "1498163293234",
       "af_hero_2_column_TDJc8V",
       "af_hero_e8GLnN",
-      "collection_callout_q9yebF",
       "af_3_column_NaWXNd",
       "vintage_military_39Amwe",
       "1499790782828",

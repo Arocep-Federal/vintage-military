@@ -30,7 +30,7 @@
 <div
   class="page-width vintage-military-{{ section.id }}"
 >
-  <div style="position: absolute; transform:rotate(225deg); right:-600px; width:85%; top:0px; opacity:.5">
+  {% comment %} <div style="position: absolute; transform:rotate(225deg); right:-600px; width:85%; top:0px; opacity:.5">
     <img
       height="auto"
       width="auto"
@@ -48,7 +48,7 @@
         src="https://cdn.shopify.com/s/files/1/0666/7884/9714/files/trippleStripe_Stars2.png?v=1722371017"
         class="lazyload"
       >
-      </div>
+      </div> {% endcomment %}
       {%- if section.settings.title != blank -%}
         <div class="section-header text-{{ section.settings.align_text }}">
           <h2>{{ section.settings.title }}</h2>

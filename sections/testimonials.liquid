@@ -12,7 +12,7 @@
   data-section-type="testimonials"
   style="position:relative;"
 >
-  <div style="position: absolute; transform:rotate(225deg);  z-index: 0; right:-500px; width:70%; top:0px; opacity:.5">
+  {% comment %} <div style="position: absolute; transform:rotate(225deg);  z-index: 0; right:-500px; width:70%; top:0px; opacity:.5">
     <img
       height="auto"
       width="auto"
@@ -29,7 +29,7 @@
       src="https://cdn.shopify.com/s/files/1/0666/7884/9714/files/trippleStripe_Stars.png?v=1722282261"
       class="lazyload"
     >
-  </div>
+  </div> {% endcomment %}
   {%- if section.settings.title != blank -%}
     <div class="section-header">
       <h2>{{ section.settings.title | escape }}</h2>

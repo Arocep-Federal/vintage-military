@@ -17,24 +17,6 @@
   }
 
 {%- endstyle -%}
-<script>
-  window.onload = (event) => {
-    console.log("page is fully loaded");
-    let video = document.getElementById('Mp4Video-{{ section.id }}')
-    {% comment %} let video = document.getElementById('video'); {% endcomment %}
-    console.log(video);
-    {% comment %} // When the 'ended' event fires {% endcomment %}
-    
-    
-    video.onplay = (event) => {
-      {% comment %} // Reset the video to 0 {% endcomment %}
-      {% comment %} video.currentTime = 0; {% endcomment %}
-      console.log("video play");
-      {% comment %} // And pause ready for {% endcomment %}
-      {% comment %} video.pause(); {% endcomment %}
-    };
-  };
-  </script>
 <div
   data-section-id="{{ section.id }}"
   data-section-type="video-section"
@@ -73,8 +55,13 @@
       <video
         id="Mp4Video-{{ section.id }}"
         src="{{ section.settings.video_url }}"
-        
-        controls="controls"
+        {% comment %} 
+      {% endcomment %}
+        playsinline
+        loop 
+        muted
+        autoplay
+        {% comment %} controls="controls" {% endcomment %}
         poster="https://cdn.shopify.com/s/files/1/0666/7884/9714/files/arocep_poster.jpg?v=1722788294"
       ></video>
     {%- endif -%}

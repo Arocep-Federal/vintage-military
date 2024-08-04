@@ -24,15 +24,15 @@
     {% comment %} let video = document.getElementById('video'); {% endcomment %}
     console.log(video);
     {% comment %} // When the 'ended' event fires {% endcomment %}
-    video.onplay = (event) => {
-      {% comment %} // Reset the video to 0 {% endcomment %}
-      {% comment %} video.currentTime = 0; {% endcomment %}
-      console.log("video play");
-      {% comment %} // And pause ready for {% endcomment %}
-      {% comment %} video.pause(); {% endcomment %}
-    };
-
     
+    
+  };
+  video.onplay = (event) => {
+    {% comment %} // Reset the video to 0 {% endcomment %}
+    {% comment %} video.currentTime = 0; {% endcomment %}
+    console.log("video play");
+    {% comment %} // And pause ready for {% endcomment %}
+    {% comment %} video.pause(); {% endcomment %}
   };
   </script>
 <div

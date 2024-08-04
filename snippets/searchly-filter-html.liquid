@@ -1,0 +1,114 @@
+{%- capture ac_layout -%}
+{%- case layout -%}
+{%- when 'productGridItemHtml' -%}
+<div class="searchly-filter-product-item searchly-filter-product-item-grid [[gridWidthClass]][[soldOutClass]][[saleClass]] [[itemActiveSwapClass]]">
+    <div class="searchly-filter-product-item-inner">
+        <div class="searchly-filter-product-item-image">
+            [[itemImages]]
+        </div>
+        <div class="searchly-filter-product-item-label">[[itemLabels]][[itemTagLabels]]</div>
+        <div class="searchly-filter-product-bottom">
+            <a href="[[itemUrl]]" class="searchly-filter-product-item-title">[[itemTitle]]</a>
+            [[itemVendor]]
+            [[itemReviewHtml]]
+            [[itemPrice]]
+            [[itemColorSwatches]]
+        </div>
+    </div>
+</div>
+{%- when 'productListItemHtml' -%}
+<div class="searchly-filter-product-item searchly-filter-product-item-list [[soldOutClass]][[saleClass]] [[itemActiveSwapClass]]">
+    <div class="searchly-filter-product-item-list-col-1">
+        <div class="searchly-filter-product-item-image">
+            <div class="searchly-filter-product-item-label">[[itemLabels]][[itemTagLabels]]</div>
+            [[itemImages]]
+        </div>
+    </div>
+    <div class="searchly-filter-product-bottom">
+        <a href="[[itemUrl]]" class="searchly-filter-product-item-title">[[itemTitle]]</a>
+        [[itemVendor]]
+        [[itemReviewHtml]]
+        [[itemPrice]]
+        <p class="searchly-filter-des">[[itemDescription]]</p>
+        [[itemColorSwatches]]
+    </div>
+</div>
+{%- when 'productListPlaceholderHtml' -%}
+<div class="searchly-filter-product-item searchly-filter-product-item-list [[class.filterProductSkeleton]]">
+  <div class="searchly-filter-product-item-list-col-1">
+    <div class="searchly-filter-product-item-image">
+      <div class="[[class.filterProductSkeleton]]-image" style="padding-top: [[paddingTop]]%"></div>
+    </div>
+  </div>
+  <div class="searchly-filter-product-bottom">
+    <a href="#" class="searchly-filter-product-item-title"><span class="searchly-filter-skeleton-text searchly-filter-skeleton-width4"></span></a>
+    <p class="searchly-filter-product-item-vendor"><span class="searchly-filter-skeleton-text searchly-filter-skeleton-width1"></span></p>
+    <p class="searchly-filter-product-item-price"><span class="searchly-filter-skeleton-text searchly-filter-skeleton-width2"></span></p>
+    <p class="searchly-filter-des">
+      <span class="searchly-filter-skeleton-text" style="width: 100%"></span><br />
+      <span class="searchly-filter-skeleton-text" style="width: 100%"></span><br />
+      <span class="searchly-filter-skeleton-text" style="width: 100%"></span><br />
+      <span class="searchly-filter-skeleton-text" style="width: 30%"></span>
+    </p>
+  </div>
+</div>
+
+{%- when 'soldOutLabelHtml' -%}
+<span class="soldout searchly-filter-label"> {{ section.settings.soldout_label }} </span>
+
+{%- when 'saleLabelHtml' -%}
+<span class="sale searchly-filter-label"> {{ section.settings.sale_label }} </span>
+
+{%- when 'tagLabelHtml' -%}
+<span class="tag searchly-filter-label [[labelTag]]" >[[labelTag]]</span>
+
+{%- when 'vendorHtml' -%}
+<p class="searchly-filter-product-item-vendor">[[itemVendorLabel]]</p>
+
+{%- when 'previousActiveHtml' -%}
+<li><a href="[[itemUrl]]">&larr;</a></li>
+
+{%- when 'previousDisabledHtml' -%}
+<li class="searchly-filter-pagination-disabled"><span>&larr;</span></li>
+
+{%- when 'nextActiveHtml' -%}
+<li><a href="[[itemUrl]]">&rarr;</a></li>
+
+{%- when 'nextDisabledHtml' -%}
+<li class="searchly-filter-pagination-disabled"><span>&rarr;</span></li>
+
+{%- when 'pageItemHtml' -%}
+<li><a href="[[itemUrl]]">[[itemTitle]]</a></li>
+
+{%- when 'pageItemSelectedHtml' -%}
+<li><span class="searchly-filter-pagination-active">[[itemTitle]]</span></li>
+
+{% when 'pageItemRemainHtml' %}
+<li><span>[[itemTitle]]</span></li>
+
+{%- when 'paginateHtml' -%}
+<ul>[[previous]][[pageItems]][[next]]</ul>
+
+{%- when 'sortingHtml' -%}
+<button class="searchly-filter-top-sorting-wrapper"><span><span> {% assign temp = 'collections.sorting.title' | t  %} {% unless temp contains 'translation missing'  %} {{ temp }} {% else %} Sorting {% endunless %}, </span></span></button><ul class="searchly-filter-filter-dropdown">[[sortingItems]]</ul>
+
+{%- when 'showLimitHtml' -%}
+<label> Show </label><select class="searchly-filter-filter-dropdown">[[showLimitItems]]</select>
+
+{%- when 'breadcrumbHtml' -%}
+<a href="/"> Home </a> [[breadcrumbDivider]] [[breadcrumbItems]]
+
+{%- when 'breadcrumbDivider' -%}
+<span class="divider">/</span>
+
+{%- when 'breadcrumbItemLink' -%}
+<a href="[[itemLink]]">[[itemTitle]]</a>
+
+{%- when 'breadcrumbItemSelected' -%}
+<span>[[itemTitle]]</span>
+
+{%- endcase -%}
+{%- endcapture -%}
+
+{%- assign str = '}}' -%}
+{{- ac_layout | json | replace: '[[', '{{' | replace: ']]', str -}}

@@ -1,0 +1,23 @@
+{{ 'globorequestforquote.css' | asset_url | stylesheet_tag }}{{ 'globorequestforquote_params.js' | asset_url | script_tag }}<style>
+    .rfq-btn{
+        background: ;
+        color: ;
+        font-size: px;
+    }
+</style>
+<script type="text/javascript">
+    var GRFQConfigs = GRFQConfigs || {};
+    GRFQConfigs.customer = {
+        'id': '{{customer.id}}',
+        'email': '{{customer.email}}',
+        'name': '{{customer.name}}'
+    };
+    GRFQConfigs.product = {{ product | json }};
+    {% if product %}        GRFQConfigs.product.selected_or_first_available_variant = {{ product.selected_or_first_available_variant | json }}        {% endif %}</script>
+<script type="text/javascript" src="{{ 'globorequestforquote.js' | asset_url }}" defer="defer"></script>
+{% for collection in product.collections %}    <script> 
+        if(typeof GRFQConfigs.product['collection'] === 'undefined') 
+            GRFQConfigs.product['collection'] = []; 
+        GRFQConfigs.product['collection'].push('{{ collection.id }}'); 
+    </script> 
+{% endfor %}

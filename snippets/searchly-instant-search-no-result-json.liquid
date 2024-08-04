@@ -1,0 +1,21 @@
+{%- assign searchly_settings = shop.metafields.searchly.settings -%}
+{% if searchly_settings contains 'suggestionNoResult":' %}
+	{%- assign searchly_suggestion_no_result = searchly_settings | split: 'suggestionNoResult":' | last | split: '}}' | first | strip -%}
+{% else %}
+	{%- assign searchly_suggestion_no_result = '' -%}
+{% endif %}
+
+{%- assign searchly_product_list = searchly_suggestion_no_result | split: 'products":' | last | split: ':[' | last | split: ']' | first | replace: '"', '' | split: ',' -%}
+{%- assign searchly_suggest_list_temp = searchly_suggestion_no_result | split: 'search_terms":' | last | split: ']' | first | split: ':[' -%}
+{%- assign searchly_suggest_list = searchly_suggest_list_temp[1] | replace: '"', '' | split: ',' -%}
+
+<script type="application/json" id="searchly-instant-search-products-not-found-json">
+	{
+		"search_terms": {{ searchly_suggest_list | json }},
+		"products": [
+		{%- for prodHandle in searchly_product_list -%}
+		{{- all_products[prodHandle] | json -}}{%- if forloop.last != true -%},{%- endif -%}
+		{%- endfor -%}
+		]
+	}
+</script>

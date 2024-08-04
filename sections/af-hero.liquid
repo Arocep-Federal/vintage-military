@@ -1,0 +1,371 @@
+{%- style -%}
+  .shopify-section:has(.background-media-text--{{ section.id }}) .af-text {
+    color: {{section.settings.fontcolor}};
+  }
+  .shopify-section:has(.background-media-text--{{ section.id }}) .af-text .btn {
+    color: {{section.settings.fontcolor}};
+    border-color:  {{section.settings.fontcolor}};
+  }
+
+  @media screen and (max-width: 768px) {
+    .background-media-text--{{ section.id }} {
+      background: {{ section.settings.color_border }};
+      height:80vh;
+    }
+  }
+  .background-media-text--{{ section.id }} .background-media-text__image {
+    background-blend-mode: luminosity;
+    background-color: {{ section.settings.vintage_military_overlay }};
+  }
+  .background-media-text--{{ section.id }} .background-media-text__inner {
+    color: {{section.settings.fontcolor}}
+  }
+  .background-media-text--{{ section.id }} .background-media-text__text {
+    background-color:transparent;
+  }
+  .af-text .kicker { margin: 0 0 10px;}
+  .af-text h2 { margin: 0 0 15px}
+
+    @media only screen and (min-width: 590px){
+
+      .background-media-text--{{ section.id }} .animation-contents {
+        text-transform: uppercase;
+        margin-bottom:0;
+      }
+
+      .background-media-text--{{ section.id }} .hero__title .animation-contents{
+        text-transform: uppercase;
+        font-size: 20px;
+        margin-bottom:0;
+      }
+      background-media-text--{{ section.id }} .hero__text-content.vertical-center {
+        padding:0 0 200px
+      }
+
+  }
+  @media only screen and (min-width: 769px){
+
+
+      .background-media-text--{{ section.id }} .hero__text-wrap .hero__text-content.horizontal-right {
+        padding-left:40%;
+      }
+      .background-media-text--{{ section.id }} .hero__text-wrap .hero__text-content.horizontal-left {
+        padding-right:40%;
+      }
+      .background-media-text--{{ section.id }} .hero__text-wrap .hero__text-content.horizontal-center {
+        padding: 0 20%;
+      }
+
+  }
+{%- endstyle -%}
+
+<div
+  data-section-id="{{ section.id }}"
+  data-section-type="background-image"
+  class="background-media-text background-media-text--{{ section.id }} background-media-text--{{ section.settings.height }} loaded"
+  data-aos="background-media-text__animation"
+  {% if section.settings.parallax %}
+    data-parallax="true"
+  {% endif %}
+>
+  <div class="background-media-text__container">
+    {%- if section.settings.parallax -%}
+      <div class="parallax-container">
+        {%- if section.settings.image != blank -%}
+          {%- style -%}
+            .background-media-text--{{ section.id }} .background-media-text__image {
+              background-position: {{ section.settings.focal_point }};
+            }
+          {%- endstyle -%}
+          <div
+            class="parallax-image background-media-text__image lazyload"
+            {% if section.settings.image != blank %}
+              data-bgset="{% render 'bgset', image: section.settings.image %}"
+              data-sizes="auto"
+            {% endif %}
+          ></div>
+        {%- else -%}
+          {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' }}
+        {%- endif -%}
+      </div>
+    {%- else -%}
+      {%- if section.settings.image != blank -%}
+        {%- style -%}
+          .background-media-text__image--{{ section.id }} {
+            object-position: {{ section.settings.focal_point }};
+            font-family: "object-fit: cover; object-position: {{ section.settings.focal_point }};";
+          }
+        {%- endstyle -%}
+
+        {%- assign img_url = section.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+
+        <img
+          class="image-fit background-media-text__image background-media-text__image--{{ section.id }} lazyload"
+          src=""
+          loading="lazy"
+          data-src="{{ img_url }}"
+          data-aspectratio="{{ section.settings.image.aspect_ratio }}"
+          data-sizes="auto"
+          width="auto"
+          height="auto"
+          data-parent-fit="cover"
+          alt="{{ section.settings.image.alt | escape }}"
+        >
+        <noscript>
+          <img
+            class="image-fit background-media-text__image background-media-text__image--{{ section.id }} lazyloaded"
+            src="{{ section.settings.image | img_url: '1800x' }}"
+            alt="{{ section.settings.image.alt }}"
+            width="auto"
+            height="auto"
+          >
+        </noscript>
+      {%- else -%}
+        {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+    {%- endif -%}
+  </div>
+
+  {%- if section.settings.kicker != blank
+    or section.settings.headline != blank
+    or section.settings.subheadline != blank
+    or section.settings.link_text != blank
+  -%}
+    <div class="hero__text-wrap hero__text-wrap--absolute">
+      <div class="page-width text-center">
+        <div class="hero__text-content {{ section.settings.text_align }}">
+          {%- unless section.settings.headline == blank -%}
+            <h2 class="af-text hero__title">
+              <div class="animation-cropper">
+                <div class="animation-contents">
+                  {%- unless section.settings.kicker == blank -%}
+                    <div class="af-text hero__kicker">
+                      <div class="animation-cropper">
+                        <div class="animation-contents">[{{ section.settings.kicker }}]</div>
+                      </div>
+                    </div>
+                  {%- endunless -%}
+                  <h2>{{ section.settings.headline | newline_to_br }}</h2>
+                </div>
+              </div>
+            </h2>
+          {%- endunless -%}
+
+          {%- unless section.settings.subheadline == blank -%}
+            <div class="af-text hero__subtitle">
+              <div class="animation-cropper">
+                <div class="animation-contents">
+                  <p>{{ section.settings.subheadline | escape }}</p>
+                </div>
+              </div>
+            </div>
+          {%- endunless -%}
+
+          {%- unless section.settings.link_text == blank -%}
+            <div class="af-text hero__link">
+              <div class="animation-cropper">
+                <div class="animation-contents">
+                  <a href="{{ section.settings.link }}" class="btn btn--small btn--inverse">
+                    {{ section.settings.link_text | escape }}
+                  </a>
+                </div>
+              </div>
+            </div>
+          {%- endunless -%}
+        </div>
+      </div>
+    </div>
+  {%- endif -%}
+</div>
+
+<div class="background-media-text__spacer background-media-text--{{ section.settings.height }}"></div>
+
+{% schema %}
+{
+  "name": "AF Hero",
+  "class": "index-section--flush",
+  "settings": [
+    {
+      "type": "color",
+      "id": "fontcolor",
+      "label": "Font Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "text",
+      "id": "kicker",
+      "label": "Kicker",
+      "default": "Your Brand Story"
+    },
+    {
+      "type": "text",
+      "id": "headline",
+      "label": "Headline",
+      "default": "Vintage Military Hero"
+    },
+    {
+      "type": "text",
+      "id": "subheadline",
+      "label": "Subheadline",
+      "default": "with all the things..."
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button label"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "select",
+      "id": "text_align",
+      "label": "Text alignment",
+      "default": "vertical-center horizontal-center",
+      "options": [
+        {
+          "value": "vertical-center horizontal-left",
+          "label": "Center left"
+        },
+        {
+          "value": "vertical-center horizontal-center",
+          "label": "Center"
+        },
+        {
+          "value": "vertical-center horizontal-right",
+          "label": "Center right"
+        },
+        {
+          "value": "vertical-bottom horizontal-left",
+          "label": "Bottom left"
+        },
+        {
+          "value": "vertical-bottom horizontal-center",
+          "label": "Bottom center"
+        },
+        {
+          "value": "vertical-bottom horizontal-right",
+          "label": "Bottom right"
+        }
+      ]
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "select",
+      "id": "focal_point",
+      "label": "Image focal point",
+      "info": "Used to keep the subject of your photo in view.",
+      "default": "center",
+      "options": [
+        {
+          "value": "20% 0",
+          "label": "Top left"
+        },
+        {
+          "value": "top",
+          "label": "Top"
+        },
+        {
+          "value": "80% 0",
+          "label": "Top right"
+        },
+        {
+          "value": "20% 50%",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Middle"
+        },
+        {
+          "value": "80% 50%",
+          "label": "Right"
+        },
+        {
+          "value": "20% 100%",
+          "label": "Bottom left"
+        },
+        {
+          "value": "bottom",
+          "label": "Bottom"
+        },
+        {
+          "value": "80% 100%",
+          "label": "Bottom right"
+        }
+      ]
+    },
+    {
+      "type": "color",
+      "id": "color_border",
+      "label": "Image color",
+      "info": "Used for mobile border",
+      "default": "#f4f4f4"
+    },
+    {
+      "type": "range",
+      "id": "height",
+      "label": "Section height",
+      "default": 550,
+      "min": 450,
+      "max": 750,
+      "step": 100,
+      "unit": "px"
+    },
+    {
+      "type": "checkbox",
+      "id": "parallax",
+      "label": "Enable parallax",
+      "default": true
+    },
+      {
+        "type": "select",
+        "id": "vintage_military_overlay",
+        "label": "Vintage Colorize",
+        "default": "none",
+        "options": [
+          {
+            "label": "Army Green",
+            "value": "#5f653e",
+          },
+          {
+            "label": "Marine Blue",
+            "value": "#091d33",
+          },
+          {
+            "label": "Vamp Red",
+            "value": "#34090a",
+          },
+          {
+            "label": "Sand Tan",
+            "value": "#c6b694",
+          },
+          {
+            "label": "Cement White",
+            "value": "#e2dfd1",
+          },
+          {
+            "label": "Gunmetal Grey",
+            "value": "#292929",
+          },
+          {
+            "label": "None",
+            "value": "none",
+          }
+        ]
+      }
+  ],
+  "presets": [
+    {
+      "name": "AF Hero",
+      "category": "Image"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,104 @@
+{%- comment -%} Check if template is collection or search page  {%- endcomment -%}
+{%- assign searchly_is_initfilter = false -%}
+{%- if request.page_type == 'collection' or request.page_type == 'search' -%}
+  {%- unless template contains 'backup-ci' -%}
+    {%- assign searchly_is_initfilter = true -%}
+  {%- endunless -%}
+{%- endif -%}
+
+<script>
+  /* Declare searchlyFilterConfig variable */
+  var searchlyAppConfig = {
+    api: {
+      filterUrl: 'https://search-filters.appikon.com/searchly/filter',
+      searchUrl: 'https://search-filters.appikon.com/searchly/filter',
+      suggestionUrl: 'https://search-filters.appikon.com/searchly/search/suggest',
+      analyticsUrl: 'https://search-filters.appikon.com/searchly/analytics'
+    },
+    shop: {
+      name: '{{ shop.name | escape }}',
+      url: '{{ shop.url }}',
+      domain: '{{ shop.permanent_domain }}',
+      currency: '{{ shop.currency }}',
+      money_format: '{{ shop.money_format | replace: "'", '"' | replace: "$", "&#36;" }}'
+    },
+    general: {
+      file_url: "{{ '' | file_url }}",
+      asset_url: "{{ 'searchly.js' | asset_url }}",
+      collection_id: {{ collection.id | default: 0 }},
+      collection_handle: "{{ collection.handle }}",
+      {% if template contains 'collection' and collection.handle %}
+      collection_count: {{ collection.products_count  }},
+      {% endif %}
+      {% if request.page_type == 'product' %}
+      product_id: {{ product.id | default: 0 }},
+      {% endif %}
+      collection_tags: {{ current_tags | json }},
+      current_tags: {{ current_tags | json }},
+      default_sort_by: "{{ collection.default_sort_by }}",
+      swatch_extension: "png",
+      no_image_url: "{{ 'searchly-no-image.gif' | asset_url }}",
+      search_term: "{{ search.terms | default: '' | url_encode }}",
+      template: "{{ template }}",
+      {%- comment -%} Get currencies {%- endcomment -%}
+      currencies: [
+        {%- for currency in shop.enabled_currencies -%}
+        {{- currency.iso_code | json -}}{%- if forloop.last != true -%},{%- endif -%}
+        {%- endfor -%}
+      ],
+      current_currency: {{- cart.currency.iso_code | json -}},
+      {%- comment -%} Get locales {%- endcomment -%}
+      published_locales: {
+        {%- for locale in shop.published_locales -%}
+        {{- locale.iso_code | json -}}:{{- locale.primary | json -}}{%- if forloop.last != true -%},{%- endif -%}
+        {%- endfor -%}
+      },
+      current_locale: {{- request.locale.iso_code | json -}},
+      isInitFilter: {{- searchly_is_initfilter | json -}}
+    },
+    {% if shop.metafields.searchly.settings != blank %}
+    settings: {{ shop.metafields.searchly.settings | strip_html }},
+    {% endif %}
+  };
+  function mergeObject(obj1, obj2){
+    var obj3 = {};
+    for (var attr in obj1) { obj3[attr] = obj1[attr]; }
+    for (var attr in obj2) { obj3[attr] = obj2[attr]; }
+    return obj3;
+  }
+  if (typeof searchlyConfig == 'undefined') {
+    searchlyConfig = {};
+  }
+  if (typeof searchlyAppConfig != 'undefined') {
+    searchlyConfig = mergeObject(searchlyConfig, searchlyAppConfig);
+  }
+  if (typeof searchlyThemeConfig != 'undefined') {
+    searchlyConfig = mergeObject(searchlyConfig, searchlyThemeConfig);
+  }
+</script>
+
+<!-- Include Resources -->
+{%- if searchly_is_initfilter == true -%}
+  <script defer src="{{ 'searchly-vendor.js' | asset_url }}"></script>
+  <script defer src="{{ 'searchly-core.js' | asset_url }}"></script>
+<script defer src="{{ 'searchly-otp.js' | asset_url }}"></script>
+  <script defer src="{{ 'searchly-filter.js' | asset_url }}"></script>
+  <script defer src="{{ 'searchly-instant-search.js' | asset_url }}"></script>
+{%- else -%}
+  <script defer src="{{ 'searchly-core-instant-search.js' | asset_url }}"></script>
+  <script defer src="{{ 'searchly-instant-search.js' | asset_url }}"></script>
+{%- endif -%}
+
+<!-- Initialize App -->
+<script defer src="{{ 'searchly-init.js' | asset_url }}"></script>
+
+{% capture searchly_search_no_result_content %}{% include  "searchly-instant-search-no-result-json" %}{% endcapture %}
+{% unless searchly_search_no_result_content contains "Liquid error" %}
+  <!-- Instant search no result JSON data -->
+  {% include  "searchly-instant-search-no-result-json" %}
+{% endunless %}
+{% if shop.metafields.searchly.customJS != blank %}
+  <script data-id="searchly-custom-js">
+    {{ shop.metafields.searchly.customJS | strip }}
+  </script>
+{% endif %}

@@ -1,0 +1,2179 @@
+{
+  "current": {
+    "color_body_bg": "#ffffff",
+    "color_body_text": "#292929",
+    "color_borders": "#292929",
+    "color_button": "#292929",
+    "color_button_text": "#ffffff",
+    "color_sale_price": "#ffffff",
+    "color_sale_tag": "#6e130b",
+    "color_sale_tag_text": "#ffffff",
+    "color_cart_dot": "#ff4f33",
+    "color_header": "#000000",
+    "color_header_text": "#ffffff",
+    "color_announcement": "#292929",
+    "color_announcement_text": "#ffffff",
+    "color_footer": "#292929",
+    "color_footer_text": "#ffffff",
+    "color_drawer_background": "#292929",
+    "color_drawer_text": "#ffffff",
+    "color_drawer_border": "#ffffff",
+    "color_drawer_button": "#292929",
+    "color_drawer_button_text": "#ffffff",
+    "color_modal_overlays": "#292929",
+    "color_image_text": "#000000",
+    "color_image_2": "#000000",
+    "color_image_2_opacity": 0,
+    "color_image_1": "#000000",
+    "color_image_1_opacity": 0,
+    "color_small_image_bg": "#ffffff",
+    "color_large_image_bg": "#292929",
+    "type_header_font_family": "rockwell_n4",
+    "type_header_spacing": "0",
+    "type_header_base_size": 60,
+    "type_header_line_height": 1.2,
+    "type_header_accent_transform": true,
+    "type_headers_align_text": true,
+    "type_base_font_family": "armata_n4",
+    "type_base_spacing": "0",
+    "type_base_size": 16,
+    "type_base_line_height": 1.6,
+    "type_base_accent_transform": true,
+    "icon_weight": "5px",
+    "icon_linecaps": "round",
+    "animate_page_transitions": true,
+    "animate_page_transition_style": "page-fade-in-up",
+    "animate_sections": true,
+    "animate_sections_background_style": "zoom-fade",
+    "animate_sections_text_style": "rise-up",
+    "animate_images": true,
+    "animate_images_style": "zoom-fade",
+    "animate_buttons": true,
+    "animate_underlines": true,
+    "vendor_enable": true,
+    "sku_enable": true,
+    "quantity_enable": false,
+    "variant_labels_enable": true,
+    "variant_type": "button",
+    "enable_payment_button": true,
+    "inventory_enable": false,
+    "inventory_threshold": 10,
+    "inventory_transfers_enable": false,
+    "product_save_amount": true,
+    "product_save_type": "dollar",
+    "product_zoom_enable": true,
+    "quick_shop_enable": true,
+    "quick_shop_text": "Quick view",
+    "product_hover_image": true,
+    "product_grid_image_size": "square",
+    "product_color_swatches": true,
+    "collection_color_swatches": true,
+    "product_content_1": "",
+    "product_content_2": "",
+    "product_content_3": "",
+    "product_contact": true,
+    "product_contact_title": "Ask a question",
+    "product_contact_show_phone": true,
+    "enable_product_reviews": false,
+    "reviews_layout": "expandable",
+    "cart_type": "drawer",
+    "cart_icon": "cart",
+    "cart_additional_buttons": false,
+    "cart_notes_enable": false,
+    "cart_terms_conditions_enable": false,
+    "cart_terms_conditions_link": "",
+    "social_facebook_link": "",
+    "social_twitter_link": "",
+    "social_pinterest_link": "",
+    "social_instagram_link": "",
+    "social_snapchat_link": "",
+    "social_tiktok_link": "",
+    "social_tumblr_link": "",
+    "social_linkedin_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "favicon": "shopify:\/\/shop_images\/Arocep_LogoDesign_Brandmark.png",
+    "search_enable": true,
+    "search_type": "product,article",
+    "predictive_search_enabled": true,
+    "predictive_search_show_vendor": true,
+    "predictive_search_show_price": false,
+    "show_breadcrumbs": true,
+    "checkout_logo_image": "shopify:\/\/shop_images\/Arocep_LogoDesign_Brandmark_003_49319d54-df13-4138-a791-164e637a0e2f.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "large",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "Helvetica Neue",
+    "checkout_body_font": "Helvetica Neue",
+    "checkout_accent_color": "#111111",
+    "checkout_button_color": "#111111",
+    "checkout_error_color": "#ff6d6d",
+    "color_image_bg": "#000000",
+    "breadcrumb": true,
+    "color_input": "#ffffff",
+    "checkout_banner_background_color": "#ffffff",
+    "checkout_call_to_action_color": "#a26b25",
+    "checkout_use_header_image": false,
+    "sections": {
+      "header": {
+        "type": "header",
+        "blocks": {
+          "2d3f1bff-b314-4950-97ad-58c5cf58cdf5": {
+            "type": "logo",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/Arocep_Logo_horizontal_4f3418a8-b81b-47da-a147-56b2ce82e427.png",
+              "logo-inverted": "shopify:\/\/shop_images\/arocep_mixed_white.svg",
+              "desktop_logo_width": 220,
+              "mobile_logo_width": 140
+            }
+          }
+        },
+        "block_order": [
+          "2d3f1bff-b314-4950-97ad-58c5cf58cdf5"
+        ],
+        "settings": {
+          "main_menu_link_list": "products",
+          "main_menu_alignment": "left",
+          "header_style": "sticky",
+          "sticky_index": true,
+          "sticky_collection": true,
+          "type_navigation_size": 14,
+          "type_navigation_style": false,
+          "show_announcement": false,
+          "announcement_text": "",
+          "announcement_link": "",
+          "announcement_closable": false
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "f4dca7ad-4950-435c-b7b2-da8c122ce7cb": {
+            "type": "custom",
+            "settings": {
+              "show_footer_title": true,
+              "title": "Arocep Federal",
+              "text": "<p><a href=\"https:\/\/www.gsaelibrary.gsa.gov\/ElibMain\/contractorInfo.do?contractNumber=GS-02F-0052V&contractorName=AROCEP+FEDERAL%2C+LLC&executeQuery=YES\" title=\"Arocep Federal - GSA eLibrary\">GSA: GS02F0052V<\/a><\/p><p><a href=\"https:\/\/www.fedmall.mil\/index.html\" title=\"FedMall\">FedMall: MARKETPLACE_4UB10, GS02F0052V<\/a><\/p><p>Cage: 4UB10<\/p><p>DUNS:  118293732<\/p><p>Federal Tax ID: 331189171<\/p>",
+              "container_width": 42
+            }
+          },
+          "1494292485313": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": true,
+              "menu": "footer",
+              "container_width": 26
+            }
+          },
+          "1494292487693": {
+            "type": "newsletter",
+            "settings": {
+              "show_footer_title": true,
+              "title": "Sign up and save",
+              "richtext": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
+              "container_width": 30
+            }
+          },
+          "1494292481350": {
+            "type": "logo_social",
+            "settings": {
+              "desktop_logo_height": 50,
+              "container_width": 20
+            }
+          }
+        },
+        "block_order": [
+          "f4dca7ad-4950-435c-b7b2-da8c122ce7cb",
+          "1494292485313",
+          "1494292487693",
+          "1494292481350"
+        ],
+        "settings": {
+          "show_locale_selector": true,
+          "show_currency_selector": true,
+          "show_currency_flags": true,
+          "show_payment_icons": false,
+          "show_copyright": true,
+          "copyright_text": ""
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "per_row": 5,
+          "collection_image_enable": true,
+          "parallax": true,
+          "description_position": "top",
+          "collection_subnav_style": "inline",
+          "collection_tags_style": "none",
+          "collection_sort_enable": true
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "description_style": "default",
+          "social_enable": true,
+          "image_size": "medium",
+          "thumbnail_position": "below",
+          "thumbnail_arrows": false,
+          "enable_video_looping": true,
+          "product_video_style": "muted"
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "blog_show_image": true,
+          "blog_show_tags": true,
+          "blog_show_date": true,
+          "blog_show_comments": true,
+          "blog_show_author": false,
+          "social_sharing_blog": true
+        }
+      },
+      "1498163293234": {
+        "type": "featured-content",
+        "custom_css": [
+          "{background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0666\/7884\/9714\/files\/arocep_brandmark_outline_white.png?v=1721846017\") center no-repeat fixed; padding: 100px 0; position: relative;}"
+        ],
+        "settings": {
+          "background": "#000000",
+          "fontcolor": "#bebebe",
+          "image": "shopify:\/\/shop_images\/arocep_brandmark_outline_white.png",
+          "title": "Our Mission",
+          "text": "<p><strong>Empowering Federal Excellence: <\/strong><em>Delivering Exceptional Solutions, Simplifying Procurement, and Enabling Mission Success.<\/em><\/p><p><br\/>At Arocep Federal, we are dedicated to providing unparalleled products and services that exceed the unique needs of the federal government. We strive to simplify the procurement process, fostering a culture of ease, efficiency, and reliability. Our team of acquisition specialists is committed to delivering flawless supply solutions that support the critical missions of our federal partners. Through our unwavering commitment to excellence, we aim to make a meaningful impact, enabling our customers to achieve their goals and serve the nation with distinction<\/p>",
+          "align_text": "left",
+          "narrow_column": true,
+          "enlarge_text": false,
+          "divider": false
+        }
+      },
+      "1498501481980": {
+        "type": "fading-images",
+        "blocks": {
+          "1498501481980-0": {
+            "type": "image",
+            "settings": {
+              "focal_point": "center center",
+              "slide_title1": "Simplified Acquisition",
+              "slide_title2": "Enhances Buyer Experience"
+            }
+          },
+          "1498501481980-1": {
+            "type": "image",
+            "settings": {
+              "focal_point": "center center",
+              "slide_title1": "Servicing Every",
+              "slide_title2": "Federal Branch Globally"
+            }
+          },
+          "1498501481980-2": {
+            "type": "image",
+            "settings": {
+              "focal_point": "center center",
+              "slide_title1": "Powered by",
+              "slide_title2": "America"
+            }
+          }
+        },
+        "block_order": [
+          "1498501481980-0",
+          "1498501481980-1",
+          "1498501481980-2"
+        ],
+        "settings": {
+          "title_lines": "2",
+          "title_font": "body",
+          "title_size": 57,
+          "title_color": "#ffffff",
+          "title_bg_color": "rgba(0,0,0,0)",
+          "text_align": "vertical-center horizontal-center",
+          "link": "",
+          "slide_speed": 5,
+          "color_overlay": "#000000",
+          "color_overlay_opacity": 30,
+          "desktop_height": "650px",
+          "mobile_height": "auto"
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "blog_show_tag_filter": true,
+          "blog_show_rss": false,
+          "blog_show_tags": true,
+          "blog_show_date": true,
+          "blog_show_comments": true,
+          "blog_show_author": false
+        }
+      },
+      "1499790529450": {
+        "type": "hero-video",
+        "settings": {
+          "fontcolor": "#ffffff",
+          "title": "",
+          "title_size": 80,
+          "subheading": "",
+          "link_text": "",
+          "link": "",
+          "text_align": "vertical-center horizontal-center",
+          "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ac202bc382074979895bd8ab4936b4a7.mp4",
+          "section_height": "100vh",
+          "mobile_height": "auto"
+        }
+      },
+      "1499790633921": {
+        "type": "background-image-text",
+        "settings": {
+          "subtitle": "Arocep Federal",
+          "title": "Contracting Vehicles",
+          "text": "<p>Search \"Arocep Federal\" in FedMall and GSA Advantage! for products and services available today. <\/p><p><strong>FEDMALL CONTRACT(S): <\/strong><a href=\"https:\/\/www.fedmall.mil\/index.html\" target=\"_blank\" title=\"https:\/\/www.fedmall.mil\/index.html\">GS02F0052V<\/a>; <a href=\"https:\/\/www.fedmall.mil\/index.html\" target=\"_blank\" title=\"https:\/\/www.fedmall.mil\/index.html\">MARKETPLACE_4UB10<\/a><\/p><p><strong>GSA CONTRACT: <\/strong><a href=\"https:\/\/www.gsaadvantage.gov\/advantage\/ws\/search\/advantage_search?q=0:2GS-02F-0052V&db=0&searchType=1\" target=\"_blank\" title=\"https:\/\/www.gsaadvantage.gov\/advantage\/ws\/search\/advantage_search?q=0:2GS-02F-0052V&db=0&searchType=1\">GS02F0052V<\/a><\/p>",
+          "button_label": "",
+          "button_link": "",
+          "image": "shopify:\/\/shop_images\/AdobeStock_225122865.jpg",
+          "focal_point": "20% 50%",
+          "color_border": "#e2dfd1",
+          "layout": "left",
+          "height": 750,
+          "parallax": true
+        }
+      },
+      "1499790782828": {
+        "type": "text-columns",
+        "blocks": {
+          "1499790782828-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/partner_rnd_rect_lexmark2.png",
+              "title": "Lexmark",
+              "text": "<p>Arocep Federal is an authorized Lexmark federal distributor. Whether you're in the workplace, at home, or on the go - we have solutions that fit whatever your need, whether large or small. <\/p>",
+              "button_label": "Explore Lexmark Solutions",
+              "button_link": "shopify:\/\/collections\/all"
+            }
+          },
+          "1499790782828-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/partner_rnd_rect_gatorz2.png",
+              "title": "Gatorz",
+              "text": "<p>Gatorz Eyewear builds tough, hand crafted, American made eyewear from billet aluminum, providing the most innovative and durable eye protection for those who push the limits every day.<\/p>",
+              "button_label": "Explore Gatorz Eyewear",
+              "button_link": ""
+            }
+          },
+          "1499790782828-2": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/partner_rnd_rect_skilcraft3.png",
+              "title": "Skilcraft",
+              "text": "<p>SKILCRAFT® offers more than 320 product lines to meet the demands of your office needs. Everything from shipping  supplies, toner cartridges and computer accessories, we supply them all.<\/p>",
+              "button_label": "Explore Skilcraft Products",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1499790782828-0",
+          "1499790782828-1",
+          "1499790782828-2"
+        ],
+        "custom_css": [
+
+        ],
+        "settings": {
+          "background": "#373737",
+          "fontcolor": "#ffffff",
+          "title": "Proudly Partnered With",
+          "align_text": "left",
+          "divider": false
+        }
+      },
+      "product-sections-template": {
+        "type": "product-sections-template",
+        "blocks": {
+          "product-image-row": {
+            "type": "image-row",
+            "settings": {
+              "image_1": "",
+              "image_1_link": "",
+              "image_2": "",
+              "image_2_link": "",
+              "image_3": "",
+              "image_3_link": "",
+              "image_4": "",
+              "image_4_link": "",
+              "enable_gutter": false,
+              "enable_zoom": true
+            }
+          },
+          "product-text-and-image": {
+            "type": "text-and-image",
+            "settings": {
+              "image": "",
+              "image_width": 500,
+              "subtitle": "Improved",
+              "title": "Image with text",
+              "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+              "button_label": "Optional button",
+              "button_link": "",
+              "layout": "left"
+            }
+          },
+          "product-background-image-text": {
+            "type": "background-image-text",
+            "settings": {
+              "subtitle": "Impressive",
+              "title": "Large image with text box",
+              "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+              "button_label": "",
+              "button_link": "",
+              "image": "",
+              "alignment": "center",
+              "color_border": "#f4f4f4",
+              "layout": "right",
+              "height": 550,
+              "parallax": true
+            }
+          },
+          "product-text-columns": {
+            "type": "text-columns",
+            "settings": {
+              "title": "",
+              "align_text": "left",
+              "enable_image_1": true,
+              "image_1": "",
+              "title_1": "Example title",
+              "text_1": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "button_label_1": "",
+              "button_link_1": "",
+              "enable_image_2": true,
+              "image_2": "",
+              "title_2": "Example title",
+              "text_2": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "button_label_2": "",
+              "button_link_2": "",
+              "enable_image_3": true,
+              "image_3": "",
+              "title_3": "Example title",
+              "text_3": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "button_label_3": "",
+              "button_link_3": ""
+            }
+          },
+          "product-hero-video": {
+            "type": "hero-video",
+            "settings": {
+              "title": "Bring your\nbrand to life.",
+              "title_size": 80,
+              "subheading": "Seamless hero videos",
+              "link_text": "Optional button",
+              "link": "",
+              "text_align": "vertical-bottom horizontal-left",
+              "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+              "section_height": "650px",
+              "mobile_height": "auto"
+            }
+          }
+        },
+        "block_order": [
+          "product-image-row",
+          "product-text-and-image",
+          "product-background-image-text",
+          "product-text-columns",
+          "product-hero-video"
+        ],
+        "settings": {
+          "description_style": "default",
+          "social_enable": true,
+          "image_size": "medium",
+          "thumbnail_position": "beside",
+          "thumbnail_arrows": false,
+          "enable_video_looping": true,
+          "product_video_style": "muted"
+        }
+      },
+      "page-sections-template": {
+        "type": "page-sections-template",
+        "blocks": {
+          "page-fading-images": {
+            "type": "fading-images",
+            "settings": {
+              "title_lines": "2",
+              "title_font": "body",
+              "title_size": 45,
+              "title_color": "#ffffff",
+              "title_bg_color": "rgba(0,0,0,0)",
+              "text_align": "vertical-center horizontal-center",
+              "link": "",
+              "slide_speed": 5,
+              "color_overlay": "#000",
+              "color_overlay_opacity": 30,
+              "desktop_height": "650px",
+              "mobile_height": "auto",
+              "enable_image_1": true,
+              "image_1": "",
+              "focal_point_1": "center center",
+              "slide_title_1a": "Beautifully animated",
+              "slide_title_1b": "titles and images",
+              "enable_image_2": true,
+              "image_2": "",
+              "focal_point_2": "center center",
+              "slide_title_2a": "Use this section",
+              "slide_title_2b": "to impress customers",
+              "enable_image_3": false,
+              "image_3": "",
+              "focal_point_3": "center center",
+              "slide_title_3a": "",
+              "slide_title_3b": ""
+            }
+          },
+          "page-rich-text": {
+            "type": "rich-text",
+            "settings": {
+              "title": "",
+              "text": "<p>Use this section for any descriptive text you need to fill out your pages or to add introductory headings between other blocks.<\/p>",
+              "align_text": "left",
+              "narrow_column": true,
+              "enlarge_text": true
+            }
+          },
+          "page-text-columns": {
+            "type": "text-columns",
+            "settings": {
+              "title": "",
+              "align_text": "left",
+              "enable_image_1": true,
+              "image_1": "",
+              "title_1": "Example title",
+              "text_1": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "button_label_1": "",
+              "button_link_1": "",
+              "enable_image_2": true,
+              "image_2": "",
+              "title_2": "Example title",
+              "text_2": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "button_label_2": "",
+              "button_link_2": "",
+              "enable_image_3": true,
+              "image_3": "",
+              "title_3": "Example title",
+              "text_3": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "button_label_3": "",
+              "button_link_3": ""
+            }
+          },
+          "page-background-image-text": {
+            "type": "background-image-text",
+            "settings": {
+              "subtitle": "Impressive",
+              "title": "Large image with text box",
+              "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+              "button_label": "",
+              "button_link": "",
+              "image": "",
+              "alignment": "center",
+              "color_border": "#f4f4f4",
+              "layout": "right",
+              "height": 550,
+              "parallax": true
+            }
+          },
+          "page-featured-collection": {
+            "type": "featured-collection",
+            "settings": {
+              "title": "Featured collection",
+              "collection": "",
+              "per_row": 4,
+              "rows": 1,
+              "view_all": true
+            }
+          }
+        },
+        "block_order": [
+          "page-fading-images",
+          "page-rich-text",
+          "page-text-columns",
+          "page-background-image-text",
+          "page-featured-collection"
+        ],
+        "settings": {
+          "page_title_enable": false,
+          "page_content_enable": false
+        }
+      },
+      "newsletter-popup": {
+        "type": "newsletter-popup",
+        "settings": {
+          "mode": "disabled",
+          "popup_seconds": 20,
+          "popup_days": 30,
+          "popup_title": "Limited Offer: FEDERAL DISCOUNT",
+          "popup_text": "<p><\/p><p>Federal Government End Users: Create an account and <strong>RECEIVE 10% off your next order!<\/strong><\/p><p>Use Code:<strong> <\/strong>FEDGOV<\/p><p><\/p><p>Check out Arocep on <a href=\"https:\/\/www.fedmall.mil\" target=\"_blank\" title=\"https:\/\/www.fedmall.mil\"><strong>FedMall<\/strong><\/a><strong> <\/strong>and <a href=\"https:\/\/www.gsaelibrary.gsa.gov\/ElibMain\/contractorInfo.do?contractNumber=GS-02F-0052V&contractorName=AROCEP+FEDERAL%2C+LLC&executeQuery=YES\" target=\"_blank\" title=\"https:\/\/www.gsaelibrary.gsa.gov\/ElibMain\/contractorInfo.do?contractNumber=GS-02F-0052V&contractorName=AROCEP+FEDERAL%2C+LLC&executeQuery=YES\"><strong>GSA Advantage!<\/strong><\/a><\/p><p><\/p><p><em>Contract: GS02F0052V<\/em><\/p><p><em>Cage: 4UB10<\/em><\/p>",
+          "close_text": "Maybe Later",
+          "enable_newsletter": false,
+          "button_label": "Optional button",
+          "button_link": "",
+          "enable_button": false
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "product_recommendations_heading": "You may also like",
+          "related_count": 5
+        }
+      },
+      "product-collection-links": {
+        "type": "product-collection-links",
+        "settings": {
+          "collection_links_enable": false
+        }
+      },
+      "page-contact-template": {
+        "type": "page-contact-template",
+        "settings": {
+          "page_title_enable": true,
+          "page_content_enable": true
+        }
+      },
+      "1608333620f9398daa": {
+        "type": "advanced-content",
+        "blocks": {
+          "16083336201528d8a6-1": {
+            "type": "html",
+            "settings": {
+              "code": "<div class=\"gsacontract\">\n<h2>GSA Schedule Holder<br>Contract #: GS-02F-0052V\n<\/h2>\n<p>\nCage Code: 4UB10\n<br>UEI: G8WYM4ZXEFB8\n<br>SIN: 339940, 332999, 33721\n<br>DUNS: 118293732\n<\/p>\n<\/div>\n<style>\n.gsacontract {margin:30px 100px}\n<\/style>",
+              "width": "50%",
+              "alignment": "center"
+            }
+          },
+          "16083336201528d8a6-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/arocep_brandmark_outline_grey_30.png",
+              "link": "https:\/\/www.gsaelibrary.gsa.gov\/ElibMain\/contractorInfo.do?contractNumber=GS-02F-0052V&contractorName=AROCEP+FEDERAL%2C+LLC&executeQuery=YES",
+              "width": "33%",
+              "alignment": "center"
+            }
+          }
+        },
+        "block_order": [
+          "16083336201528d8a6-1",
+          "16083336201528d8a6-0"
+        ],
+        "settings": {
+          "full_width": true,
+          "space_around": false
+        }
+      },
+      "collection-template-searchly-filter": {
+        "type": "collection-template-searchly-filter",
+        "settings": {
+          "show_collection_image": true,
+          "collection_image_text_color": "",
+          "products_per_page": 24,
+          "products_per_row": 3,
+          "products_per_row_mobile": 2,
+          "text_alignment": "left",
+          "show_vendor": true,
+          "show_price": true,
+          "active_image_swap": true,
+          "show_sorting": true,
+          "show_product_review": false,
+          "show_sold_out_label": true,
+          "soldout_label": "Sold out",
+          "show_sale_label": true,
+          "sale_label": "Sale",
+          "from": "from",
+          "show_lable_by_tag": false,
+          "display_item_swatch": true,
+          "swatch_color_display_type": "swatch_color_display_type_image_product",
+          "swatch_color_event_change_image": "hover",
+          "swatches_color_shape": "circle",
+          "equal_height": "false",
+          "ratio_width_height_other": "",
+          "equal_height_crop_image_position": "center"
+        }
+      },
+      "16610163183f9ce193": {
+        "type": "hero-video",
+        "settings": {
+          "fontcolor": "#ffffff",
+          "title": "Gatorz",
+          "title_size": 80,
+          "subheading": "EYEWEAR",
+          "link_text": "Shop now",
+          "link": "shopify:\/\/products\/the-3p-fulfilled-snowboard",
+          "text_align": "vertical-bottom horizontal-center",
+          "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/5803e6ccf9f54d59b2fef3412fb72ab3.mp4",
+          "section_height": "100vh",
+          "mobile_height": "250px"
+        }
+      },
+      "vintage_military_VnaT6F": {
+        "type": "vintage-military",
+        "disabled": true,
+        "settings": {
+          "background": "#ffffff",
+          "fontcolor": "#ffffff",
+          "kicker": "",
+          "headline": "redefining federal procurement",
+          "subheadline": "from base to space",
+          "text_align": "vertical-center horizontal-center",
+          "image": "shopify:\/\/shop_images\/saluting.jpg",
+          "link": "",
+          "link_text": "See  How",
+          "vintage_military_overlay": "#091d33"
+        }
+      },
+      "af_3_column_NaWXNd": {
+        "type": "af-3-column",
+        "blocks": {
+          "text_block_zkmQHM": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": false,
+              "title": "Teamwork",
+              "text": "<p>We collaborate with our customers, partners, and each other to achieve a common goal: supporting the brave men and women who protect our nation.<\/p>",
+              "button_label": "Optional button",
+              "enable_bgimg": true,
+              "button_link": ""
+            }
+          },
+          "text_block_rJWaGD": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": false,
+              "title": "Excellence",
+              "text": "<p>We strive for perfection in every aspect of our work, knowing that our efforts directly impact the safety and success of our military personnel.<\/p>",
+              "button_label": "Optional button",
+              "enable_bgimg": true,
+              "button_link": ""
+            }
+          },
+          "text_block_dKhthC": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": false,
+              "title": "Innovation",
+              "text": "<p>We leverage cutting-edge solutions and best practices to stay ahead of the evolving needs of our federal customers.<\/p>",
+              "button_label": "Optional button",
+              "enable_bgimg": true,
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "text_block_zkmQHM",
+          "text_block_rJWaGD",
+          "text_block_dKhthC"
+        ],
+        "custom_css": [
+
+        ],
+        "settings": {
+          "background": "#831b1b",
+          "fontcolor": "#ffffff",
+          "title": "Our Values",
+          "align_text": "left",
+          "divider": false
+        }
+      },
+      "vintage_military_39Amwe": {
+        "type": "vintage-military",
+        "settings": {
+          "background": "#111111",
+          "fontcolor": "#ffffff",
+          "kicker": "Here To Support Your Mission",
+          "headline": "Our Trusted Global Network is Standing By",
+          "subheadline": "Our global distribution network is available around the clock ensuring you get your products when and where you need them. Government buyers can purchase directly from Arocep Federal with ease. We're standing by to support you.",
+          "text_align": "vertical-center horizontal-right",
+          "image": "shopify:\/\/shop_images\/AdobeStock_225122865.jpg",
+          "link": "shopify:\/\/products\/the-collection-snowboard-oxygen",
+          "link_text": "Let's Go",
+          "vintage_military_overlay": "none"
+        }
+      },
+      "vintage_military_dUhp4V": {
+        "type": "vintage-military",
+        "settings": {
+          "background": "#111111",
+          "fontcolor": "#ffffff",
+          "kicker": "Your Brand Story",
+          "headline": "Vintage Military Hero",
+          "subheadline": "with all the things...",
+          "text_align": "vertical-center horizontal-center",
+          "image": "shopify:\/\/shop_images\/flag.jpg",
+          "link": "",
+          "link_text": "Optional button",
+          "vintage_military_overlay": "none"
+        }
+      },
+      "testimonials_FYBL7k": {
+        "type": "testimonials",
+        "blocks": {
+          "testimonial_8z6iwz": {
+            "type": "testimonial",
+            "settings": {
+              "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          },
+          "testimonial_3rVNV8": {
+            "type": "testimonial",
+            "settings": {
+              "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          },
+          "testimonial_nbHqF7": {
+            "type": "testimonial",
+            "settings": {
+              "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          },
+          "testimonial_AmU8H8": {
+            "type": "testimonial",
+            "settings": {
+              "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          },
+          "testimonial_M7FibA": {
+            "type": "testimonial",
+            "settings": {
+              "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          },
+          "testimonial_fajDkF": {
+            "type": "testimonial",
+            "settings": {
+              "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          }
+        },
+        "block_order": [
+          "testimonial_8z6iwz",
+          "testimonial_3rVNV8",
+          "testimonial_nbHqF7",
+          "testimonial_AmU8H8",
+          "testimonial_M7FibA",
+          "testimonial_fajDkF"
+        ],
+        "settings": {
+          "background": "#111111",
+          "fontcolor": "#ffffff",
+          "title": "Don't take our word for it...",
+          "align_text": "center",
+          "round_images": true,
+          "divider": false
+        }
+      },
+      "featured_collections_NdNCiE": {
+        "type": "featured-collections",
+        "blocks": {
+          "collection_FEkqDy": {
+            "type": "collection",
+            "settings": {
+              "collection": "hydrogen",
+              "focal_point": "center center",
+              "size": "square-small"
+            }
+          },
+          "collection_w77LU3": {
+            "type": "collection",
+            "settings": {
+              "collection": "snow-collection",
+              "focal_point": "center center",
+              "size": "square-small"
+            }
+          },
+          "collection_QDjmLf": {
+            "type": "collection",
+            "settings": {
+              "collection": "winter-collection",
+              "focal_point": "center center",
+              "size": "square-small"
+            }
+          },
+          "collection_qbDLXR": {
+            "type": "collection",
+            "settings": {
+              "collection": "automated-collection",
+              "focal_point": "center center",
+              "size": "square-small"
+            }
+          }
+        },
+        "block_order": [
+          "collection_FEkqDy",
+          "collection_w77LU3",
+          "collection_QDjmLf",
+          "collection_qbDLXR"
+        ],
+        "disabled": true,
+        "custom_css": [
+          ".section-header {margin-bottom: 10px;}",
+          " {position: relative; top: -120px;}",
+          ".skrim__link {border-radius: 15px;}"
+        ],
+        "settings": {
+          "title": "Shop by Category",
+          "divider": false,
+          "enable_gutter": true
+        }
+      },
+      "af_hero_e8GLnN": {
+        "type": "af-hero",
+        "custom_css": [
+
+        ],
+        "settings": {
+          "fontcolor": "#ffffff",
+          "kicker": "Discover",
+          "headline": "The Arocep Advantage",
+          "subheadline": "Providing transparency of products and pricing with a low cost to match. Streamlined purchasing simplifies the acquisition experience while meeting your socio-economic goals.",
+          "button_label": "Optional button",
+          "button_link": "shopify:\/\/pages\/contact",
+          "text_align": "vertical-center horizontal-center",
+          "image": "shopify:\/\/shop_images\/glow-globe.png",
+          "focal_point": "20% 0",
+          "color_border": "#f4f4f4",
+          "height": 650,
+          "parallax": true,
+          "vintage_military_overlay": "#c6b694"
+        }
+      },
+      "af_hero_2_column_TDJc8V": {
+        "type": "af-hero-2-column",
+        "settings": {
+          "background": "#111111",
+          "box": "#c6c6c6",
+          "fontcolor": "#000000",
+          "kicker": "Your Brand Story",
+          "headline": "Vintage Military Hero",
+          "copy": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.\n\nEexercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "image": "shopify:\/\/shop_images\/AdobeStock_359492610_2.png",
+          "link": "",
+          "link_text": "Optional button"
+        }
+      },
+      "collection_callout_q9yebF": {
+        "type": "collection-callout",
+        "settings": {
+          "collection": "",
+          "subtitle": "Brand new",
+          "title": "Collection callout",
+          "text": "Use this section to easily call attention to one of your collections. We'll show photos of the first 5 products.",
+          "cta_text1": "Shop Jackets",
+          "cta_link1": "",
+          "cta_text2": "Shop All Mens",
+          "cta_link2": "",
+          "layout": "right",
+          "divider": false
+        }
+      }
+    },
+    "content_for_index": [
+      "vintage_military_VnaT6F",
+      "1499790529450",
+      "featured_collections_NdNCiE",
+      "1498163293234",
+      "af_hero_2_column_TDJc8V",
+      "af_hero_e8GLnN",
+      "collection_callout_q9yebF",
+      "af_3_column_NaWXNd",
+      "vintage_military_39Amwe",
+      "1499790782828",
+      "vintage_military_dUhp4V",
+      "testimonials_FYBL7k",
+      "1499790633921",
+      "16610163183f9ce193",
+      "1608333620f9398daa",
+      "1498501481980"
+    ]
+  },
+  "presets": {
+    "Classic": {
+      "color_borders": "#e8e8e1",
+      "color_button": "#111111",
+      "color_button_text": "#ffffff",
+      "color_drawer_background": "#ffffff",
+      "color_drawer_text": "#000000",
+      "color_drawer_border": "#e8e8e1",
+      "color_drawer_button": "#111111",
+      "color_drawer_button_text": "#ffffff",
+      "color_footer": "#111111",
+      "color_footer_text": "#ffffff",
+      "color_image_1": "#000000",
+      "color_image_1_opacity": 62,
+      "color_image_2": "#000000",
+      "color_image_2_opacity": 0,
+      "color_small_image_bg": "#ffffff",
+      "color_large_image_bg": "#111111",
+      "type_header_spacing": "0",
+      "type_header_font_family": "itc_avant_garde_gothic_n7",
+      "type_header_base_size": 35,
+      "type_header_line_height": 1.2,
+      "type_header_accent_transform": true,
+      "type_base_font_family": "futura_n4",
+      "type_base_spacing": "25",
+      "type_base_size": 17,
+      "type_base_line_height": 1.6,
+      "type_base_accent_transform": true,
+      "icon_weight": "4px",
+      "icon_linecaps": "miter",
+      "animate_page_transitions": true,
+      "animate_page_transition_style": "page-slow-fade",
+      "animate_sections": true,
+      "animate_sections_background_style": "zoom-fade",
+      "animate_sections_text_style": "rise-up",
+      "animate_images": true,
+      "animate_images_style": "zoom-fade",
+      "animate_buttons": true,
+      "animate_underlines": true,
+      "quick_shop_text": "Quick view",
+      "cart_type": "drawer",
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#111111",
+      "checkout_button_color": "#111111",
+      "checkout_error_color": "#ff6d6d",
+      "color_image_bg": "#000000",
+      "breadcrumb": true,
+      "color_input": "#ffffff",
+      "checkout_banner_background_color": "#ffffff",
+      "checkout_call_to_action_color": "#a26b25",
+      "checkout_use_header_image": false,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "main_menu_link_list": "main-menu",
+            "sticky_index": true,
+            "sticky_collection": false,
+            "show_announcement": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1494292481350": {
+              "type": "logo_social",
+              "settings": {
+                "container_width": 20
+              }
+            },
+            "1494292485313": {
+              "type": "menu",
+              "settings": {
+                "menu": "main-menu",
+                "container_width": 20
+              }
+            },
+            "1494292487693": {
+              "type": "newsletter",
+              "settings": {
+                "container_width": 33
+              }
+            },
+            "1494301487049": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer",
+                "container_width": 20
+              }
+            }
+          },
+          "block_order": [
+            "1494292481350",
+            "1494301487049",
+            "1494292485313",
+            "1494292487693"
+          ],
+          "settings": {
+            "show_payment_icons": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "per_row": 4,
+            "collection_image_enable": true,
+            "collection_sort_enable": false
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "social_enable": true,
+            "image_size": "medium"
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "social_sharing_blog": true
+          }
+        },
+        "1498163293234": {
+          "type": "featured-content",
+          "settings": {
+            "divider": false
+          }
+        },
+        "1498501481980": {
+          "type": "fading-images",
+          "blocks": {
+            "1498501481980-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "Beautifully animated",
+                "slide_title2": "titles and images"
+              }
+            },
+            "1498501481980-1": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "Use this section",
+                "slide_title2": "to impress"
+              }
+            },
+            "1498501481980-2": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "And highlight",
+                "slide_title2": "important details"
+              }
+            }
+          },
+          "block_order": [
+            "1498501481980-0",
+            "1498501481980-1",
+            "1498501481980-2"
+          ],
+          "settings": {
+            "slide_speed": 5,
+            "color_overlay": "#000000",
+            "color_overlay_opacity": 30
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "blog_show_tag_filter": true,
+            "blog_show_rss": false,
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false
+          }
+        },
+        "1566999869051": {
+          "type": "featured-collection-switcher",
+          "settings": {
+          }
+        },
+        "1499789718857": {
+          "type": "featured-collections",
+          "blocks": {
+            "1499789718857-0": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "wide"
+              }
+            },
+            "1499789718857-1": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-2": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-3": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-4": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-5": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "wide"
+              }
+            }
+          },
+          "block_order": [
+            "1499789718857-0",
+            "1499789718857-1",
+            "1499789718857-2",
+            "1499789718857-3",
+            "1499789718857-4",
+            "1499789718857-5"
+          ],
+          "settings": {
+            "title": "",
+            "divider": false
+          }
+        },
+        "1499790529450": {
+          "type": "hero-video",
+          "settings": {
+            "title": "Bring your\nbrand to life.",
+            "title_size": 80,
+            "subheading": "Seamless hero videos",
+            "link_text": "",
+            "link": "",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "section_height": "650px"
+          }
+        },
+        "1499790633921": {
+          "type": "background-image-text",
+          "settings": {
+            "subtitle": "Impressive",
+            "title": "Large image and text",
+            "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "image": "",
+            "color_border": "#f4f4f4",
+            "layout": "left",
+            "height": 650
+          }
+        },
+        "1499790731541": {
+          "type": "collection-callout",
+          "settings": {
+            "collection": "",
+            "subtitle": "Brand new",
+            "title": "Collection callout",
+            "text": "Use this section to easily call attention to one of your collections. We'll show photos of the first 5 products.",
+            "cta_text1": "Shop Jackets",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "divider": false
+          }
+        },
+        "1499790782828": {
+          "type": "text-columns",
+          "blocks": {
+            "1499790782828-0": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image": "",
+                "title": "Example title",
+                "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+                "button_label": "",
+                "button_link": ""
+              }
+            },
+            "1499790782828-1": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image": "",
+                "title": "Example title",
+                "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+                "button_label": "",
+                "button_link": ""
+              }
+            },
+            "1499790782828-2": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image": "",
+                "title": "Example title",
+                "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+                "button_label": "",
+                "button_link": ""
+              }
+            }
+          },
+          "block_order": [
+            "1499790782828-0",
+            "1499790782828-1",
+            "1499790782828-2"
+          ],
+          "settings": {
+            "title": "",
+            "divider": false
+          }
+        },
+        "product-sections-template": {
+          "type": "product-sections-template",
+          "blocks": {
+            "product-image-row": {
+              "type": "image-row",
+              "settings": {
+              }
+            },
+            "product-text-and-image": {
+              "type": "text-and-image",
+              "settings": {
+              }
+            },
+            "product-background-image-text": {
+              "type": "background-image-text",
+              "settings": {
+                "layout": "right"
+              }
+            },
+            "product-text-columns": {
+              "type": "text-columns",
+              "settings": {
+              }
+            },
+            "product-hero-video": {
+              "type": "hero-video",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "product-image-row",
+            "product-text-and-image",
+            "product-background-image-text",
+            "product-text-columns",
+            "product-hero-video"
+          ],
+          "settings": {
+          }
+        },
+        "page-sections-template": {
+          "type": "page-sections-template",
+          "blocks": {
+            "page-fading-images": {
+              "type": "fading-images",
+              "settings": {
+              }
+            },
+            "page-rich-text": {
+              "type": "rich-text",
+              "settings": {
+                "title": "",
+                "enlarge_text": true
+              }
+            },
+            "page-text-columns": {
+              "type": "text-columns",
+              "settings": {
+              }
+            },
+            "page-background-image-text": {
+              "type": "background-image-text",
+              "settings": {
+                "layout": "right"
+              }
+            },
+            "page-featured-collection": {
+              "type": "featured-collection",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "page-fading-images",
+            "page-rich-text",
+            "page-text-columns",
+            "page-background-image-text",
+            "page-featured-collection"
+          ],
+          "settings": {
+          }
+        }
+      },
+      "content_for_index": [
+        "1499790529450",
+        "1566999869051",
+        "1498163293234",
+        "1499789718857",
+        "1498501481980",
+        "1499790731541",
+        "1499790633921",
+        "1499790782828"
+      ]
+    },
+    "Elegant": {
+      "color_borders": "#e8e8e1",
+      "color_button": "#353956",
+      "color_button_text": "#ffffff",
+      "color_footer": "#17172c",
+      "color_footer_text": "#ffffff",
+      "color_drawer_background": "#ffffff",
+      "color_drawer_text": "#17172c",
+      "color_drawer_border": "#e8e8e1",
+      "color_drawer_button": "#353956",
+      "color_drawer_button_text": "#ffffff",
+      "color_modal_overlays": "#17172c",
+      "color_image_2": "#17172c",
+      "color_image_2_opacity": 0,
+      "color_image_1": "#17172c",
+      "color_image_1_opacity": 32,
+      "color_small_image_bg": "#f4f4f4",
+      "color_large_image_bg": "#17172c",
+      "type_header_spacing": "0",
+      "type_header_font_family": "bauer_bodoni_n7",
+      "type_header_base_size": 42,
+      "type_header_line_height": 1.3,
+      "type_base_font_family": "futura_n4",
+      "type_base_spacing": "25",
+      "type_base_size": 17,
+      "type_base_line_height": 1.6,
+      "icon_weight": "3px",
+      "icon_linecaps": "miter",
+      "animate_page_transitions": true,
+      "animate_page_transition_style": "page-slow-fade",
+      "animate_sections": true,
+      "animate_sections_background_style": "zoom-fade",
+      "animate_sections_text_style": "rise-up",
+      "animate_images": true,
+      "animate_images_style": "zoom-fade",
+      "animate_buttons": true,
+      "animate_underlines": true,
+      "quick_shop_text": "Quick view",
+      "cart_type": "drawer",
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#111111",
+      "checkout_button_color": "#111111",
+      "checkout_error_color": "#ff6d6d",
+      "color_image_bg": "#000000",
+      "breadcrumb": true,
+      "color_input": "#ffffff",
+      "checkout_banner_background_color": "#ffffff",
+      "checkout_call_to_action_color": "#a26b25",
+      "checkout_use_header_image": false,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "main_menu_link_list": "main-menu",
+            "sticky_index": true,
+            "sticky_collection": false,
+            "show_announcement": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1494292481350": {
+              "type": "logo_social",
+              "settings": {
+                "container_width": 20
+              }
+            },
+            "1494292485313": {
+              "type": "menu",
+              "settings": {
+                "menu": "main-menu",
+                "container_width": 20
+              }
+            },
+            "1494292487693": {
+              "type": "newsletter",
+              "settings": {
+                "container_width": 33
+              }
+            },
+            "1494301487049": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer",
+                "container_width": 20
+              }
+            }
+          },
+          "block_order": [
+            "1494292481350",
+            "1494301487049",
+            "1494292485313",
+            "1494292487693"
+          ],
+          "settings": {
+            "show_payment_icons": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "per_row": 4,
+            "collection_image_enable": true,
+            "collection_sort_enable": false
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "social_enable": true,
+            "image_size": "medium"
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "social_sharing_blog": true
+          }
+        },
+        "1498163293234": {
+          "type": "featured-content",
+          "settings": {
+            "divider": false
+          }
+        },
+        "1498501481980": {
+          "type": "fading-images",
+          "blocks": {
+            "1498501481980-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "Beautifully animated",
+                "slide_title2": "titles and images"
+              }
+            },
+            "1498501481980-1": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "Use this section",
+                "slide_title2": "to impress"
+              }
+            },
+            "1498501481980-2": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "And highlight",
+                "slide_title2": "important details"
+              }
+            }
+          },
+          "block_order": [
+            "1498501481980-0",
+            "1498501481980-1",
+            "1498501481980-2"
+          ],
+          "settings": {
+            "slide_speed": 5,
+            "color_overlay": "#000000",
+            "color_overlay_opacity": 30
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "blog_show_tag_filter": true,
+            "blog_show_rss": false,
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false
+          }
+        },
+        "1566999869051": {
+          "type": "featured-collection-switcher",
+          "settings": {
+          }
+        },
+        "1499789718857": {
+          "type": "featured-collections",
+          "blocks": {
+            "1499789718857-0": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "wide"
+              }
+            },
+            "1499789718857-1": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-2": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-3": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-4": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-5": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "wide"
+              }
+            }
+          },
+          "block_order": [
+            "1499789718857-0",
+            "1499789718857-1",
+            "1499789718857-2",
+            "1499789718857-3",
+            "1499789718857-4",
+            "1499789718857-5"
+          ],
+          "settings": {
+            "title": "",
+            "divider": false
+          }
+        },
+        "1499790529450": {
+          "type": "hero-video",
+          "settings": {
+            "title": "Bring your\nbrand to life.",
+            "title_size": 80,
+            "subheading": "Seamless hero videos",
+            "link_text": "",
+            "link": "",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "section_height": "650px"
+          }
+        },
+        "1499790633921": {
+          "type": "background-image-text",
+          "settings": {
+            "subtitle": "Impressive",
+            "title": "Large image and text",
+            "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "image": "",
+            "color_border": "#f4f4f4",
+            "layout": "left",
+            "height": 650
+          }
+        },
+        "1499790731541": {
+          "type": "collection-callout",
+          "settings": {
+            "collection": "",
+            "subtitle": "Brand new",
+            "title": "Collection callout",
+            "text": "Use this section to easily call attention to one of your collections. We'll show photos of the first 5 products.",
+            "cta_text1": "Shop Jackets",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "divider": false
+          }
+        },
+        "1499790782828": {
+          "type": "text-columns",
+          "blocks": {
+            "1499790782828-0": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image": "",
+                "title": "Example title",
+                "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+                "button_label": "",
+                "button_link": ""
+              }
+            },
+            "1499790782828-1": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image": "",
+                "title": "Example title",
+                "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+                "button_label": "",
+                "button_link": ""
+              }
+            },
+            "1499790782828-2": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image": "",
+                "title": "Example title",
+                "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+                "button_label": "",
+                "button_link": ""
+              }
+            }
+          },
+          "block_order": [
+            "1499790782828-0",
+            "1499790782828-1",
+            "1499790782828-2"
+          ],
+          "settings": {
+            "title": "",
+            "divider": false
+          }
+        }
+      },
+      "content_for_index": [
+        "1499790529450",
+        "1566999869051",
+        "1498163293234",
+        "1499789718857",
+        "1498501481980",
+        "1499790731541",
+        "1499790633921",
+        "1499790782828"
+      ]
+    },
+    "Minimal": {
+      "color_borders": "#f0f1f3",
+      "color_button": "#111111",
+      "color_button_text": "#ffffff",
+      "color_footer": "#f0f1f3",
+      "color_footer_text": "#2c2c2c",
+      "color_drawer_background": "#ffffff",
+      "color_drawer_text": "#000000",
+      "color_drawer_border": "#f0f1f3",
+      "color_drawer_button": "#111111",
+      "color_drawer_button_text": "#ffffff",
+      "color_modal_overlays": "#aeb1b8",
+      "color_image_2": "#000000",
+      "color_image_2_opacity": 0,
+      "color_image_1": "#000000",
+      "color_image_1_opacity": 26,
+      "color_small_image_bg": "#ffffff",
+      "color_large_image_bg": "#dedfe1",
+      "type_header_spacing": "50",
+      "type_header_font_family": "chivo_n7",
+      "type_header_base_size": 34,
+      "type_header_line_height": 1.2,
+      "type_header_accent_transform": true,
+      "type_base_font_family": "neuzeit_office_n4",
+      "type_base_spacing": "25",
+      "type_base_size": 16,
+      "type_base_line_height": 1.6,
+      "type_base_accent_transform": true,
+      "icon_weight": "2px",
+      "icon_linecaps": "round",
+      "animate_page_transitions": true,
+      "animate_page_transition_style": "page-slide-reveal-down",
+      "animate_sections": true,
+      "animate_sections_background_style": "zoom-fade",
+      "animate_sections_text_style": "rise-up",
+      "animate_images": true,
+      "animate_images_style": "fade-in",
+      "animate_buttons": true,
+      "animate_underlines": true,
+      "quick_shop_text": "Quick view",
+      "cart_type": "drawer",
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#111111",
+      "checkout_button_color": "#111111",
+      "checkout_error_color": "#ff6d6d",
+      "color_image_bg": "#000000",
+      "breadcrumb": true,
+      "color_input": "#ffffff",
+      "checkout_banner_background_color": "#ffffff",
+      "checkout_call_to_action_color": "#a26b25",
+      "checkout_use_header_image": false,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "main_menu_link_list": "main-menu",
+            "sticky_index": false,
+            "sticky_collection": false,
+            "show_announcement": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1494292481350": {
+              "type": "logo_social",
+              "settings": {
+                "container_width": 20
+              }
+            },
+            "1494292485313": {
+              "type": "menu",
+              "settings": {
+                "menu": "main-menu",
+                "container_width": 20
+              }
+            },
+            "1494292487693": {
+              "type": "newsletter",
+              "settings": {
+                "container_width": 33
+              }
+            },
+            "1494301487049": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer",
+                "container_width": 20
+              }
+            }
+          },
+          "block_order": [
+            "1494292481350",
+            "1494301487049",
+            "1494292485313",
+            "1494292487693"
+          ],
+          "settings": {
+            "show_payment_icons": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "per_row": 4,
+            "collection_image_enable": true,
+            "collection_sort_enable": false
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "social_enable": true,
+            "image_size": "medium"
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "social_sharing_blog": true
+          }
+        },
+        "1498163293234": {
+          "type": "featured-content",
+          "settings": {
+            "divider": false
+          }
+        },
+        "1498501481980": {
+          "type": "fading-images",
+          "blocks": {
+            "1498501481980-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "Beautifully animated",
+                "slide_title2": "titles and images"
+              }
+            },
+            "1498501481980-1": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "Use this section",
+                "slide_title2": "to impress"
+              }
+            },
+            "1498501481980-2": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "And highlight",
+                "slide_title2": "important details"
+              }
+            }
+          },
+          "block_order": [
+            "1498501481980-0",
+            "1498501481980-1",
+            "1498501481980-2"
+          ],
+          "settings": {
+            "slide_speed": 5,
+            "color_overlay": "#000000",
+            "color_overlay_opacity": 30
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "blog_show_tag_filter": true,
+            "blog_show_rss": false,
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false
+          }
+        },
+        "1566999869051": {
+          "type": "featured-collection-switcher",
+          "settings": {
+          }
+        },
+        "1499789718857": {
+          "type": "featured-collections",
+          "blocks": {
+            "1499789718857-0": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "wide"
+              }
+            },
+            "1499789718857-1": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-2": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-3": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-4": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-5": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "wide"
+              }
+            }
+          },
+          "block_order": [
+            "1499789718857-0",
+            "1499789718857-1",
+            "1499789718857-2",
+            "1499789718857-3",
+            "1499789718857-4",
+            "1499789718857-5"
+          ],
+          "settings": {
+            "title": "",
+            "divider": false
+          }
+        },
+        "1499790529450": {
+          "type": "hero-video",
+          "settings": {
+            "title": "Bring your\nbrand to life.",
+            "title_size": 80,
+            "subheading": "Seamless hero videos",
+            "link_text": "",
+            "link": "",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "section_height": "650px"
+          }
+        },
+        "1499790633921": {
+          "type": "background-image-text",
+          "settings": {
+            "subtitle": "Impressive",
+            "title": "Large image and text",
+            "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "image": "",
+            "color_border": "#f4f4f4",
+            "layout": "left",
+            "height": 650
+          }
+        },
+        "1499790731541": {
+          "type": "collection-callout",
+          "settings": {
+            "collection": "",
+            "subtitle": "Brand new",
+            "title": "Collection callout",
+            "text": "Use this section to easily call attention to one of your collections. We'll show photos of the first 5 products.",
+            "cta_text1": "Shop Jackets",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "divider": false
+          }
+        },
+        "1499790782828": {
+          "type": "text-columns",
+          "blocks": {
+            "1499790782828-0": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image": "",
+                "title": "Example title",
+                "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+                "button_label": "",
+                "button_link": ""
+              }
+            },
+            "1499790782828-1": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image": "",
+                "title": "Example title",
+                "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+                "button_label": "",
+                "button_link": ""
+              }
+            },
+            "1499790782828-2": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image": "",
+                "title": "Example title",
+                "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+                "button_label": "",
+                "button_link": ""
+              }
+            }
+          },
+          "block_order": [
+            "1499790782828-0",
+            "1499790782828-1",
+            "1499790782828-2"
+          ],
+          "settings": {
+            "title": "",
+            "divider": false
+          }
+        }
+      },
+      "content_for_index": [
+        "1499790529450",
+        "1566999869051",
+        "1498163293234",
+        "1499789718857",
+        "1498501481980",
+        "1499790731541",
+        "1499790633921",
+        "1499790782828"
+      ]
+    }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".grid-product__price {display: none;}"
+    ]
+  }
+}

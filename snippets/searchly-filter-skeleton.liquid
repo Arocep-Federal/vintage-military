@@ -1,0 +1,38 @@
+{%- assign ac_settings = shop.metafields.searchly.settings -%}
+{% if ac_settings contains 'showPlaceholder":' %}
+	{%- assign searchly_placeholder_enable = ac_settings | split: 'showPlaceholder":' | last | split: ',' | first | split: '}' | first | strip -%}
+{% else %}
+	{%- assign searchly_placeholder_enable = 'true' -%}
+{% endif %}
+
+{% if searchly_placeholder_enable == 'true' %}
+  {% case type %}
+    {% when 'filter-tree' %}
+      {% for i in (1..3) %}
+        <div class="searchly-filter-option searchly-filter-option-skeleton">
+          <div class="searchly-filter-option-title">
+            <h3><span></span></h3>
+          </div>
+          <div class="searchly-filter-option-content">
+            <span class="searchly-filter-skeleton-text searchly-filter-skeleton-width3"></span>
+            <span class="searchly-filter-skeleton-text searchly-filter-skeleton-width4"></span>
+            <span class="searchly-filter-skeleton-text searchly-filter-skeleton-width2"></span>
+            <span class="searchly-filter-skeleton-text searchly-filter-skeleton-width1"></span>
+          </div>
+        </div>
+      {% endfor %}
+    {% when 'filter-tree-h' %}
+      {% for i in (1..4) %}
+        <div class="searchly-filter-option searchly-filter-option-skeleton searchly-filter-option-collapsed">
+          <div class="searchly-filter-option-title">
+            <button class="searchly-filter-button searchly-filter-option-title-heading"><span></span></button>
+          </div>
+          <div class="searchly-filter-option-content"></div>
+        </div>
+      {% endfor %}
+    {% when 'button' %}
+      <button class="searchly-filter-skeleton-button"><span></span></button>
+    {% else %}
+      <span class="searchly-filter-skeleton-text searchly-filter-skeleton-width{{- width -}}"></span>
+  {% endcase %}
+{% endif %}

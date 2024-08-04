@@ -1,0 +1,239 @@
+{%- comment -%} Searchly Library CSS {%- endcomment -%}
+
+{%- if request.page_type == 'collection' or request.page_type == 'search'  -%}
+  {{ 'searchly-init.scss.css' | asset_url | stylesheet_tag }}
+  <link rel="preload stylesheet" href="{{ 'searchly-general.scss.css' | asset_url }}" as="style">
+  <link rel="preload stylesheet" href="{{ 'searchly-otp.scss.css' | asset_url }}" as="style">
+{%- else -%}
+  <link rel="preload stylesheet" href="{{ 'searchly-instant-search.scss.css' | asset_url }}" as="style">
+{%- endif -%}
+{{ 'searchly-custom.scss.css' | asset_url | stylesheet_tag }}
+
+{%- comment -%}
+AC Style Setting
+
+fTitleTextColor,
+fTitleFontSize,
+fTitleFontWeight,
+fTitleFontTransform,
+fTitleFontFamily,
+fOptionTextColor,
+fOptionFontSize,
+fOptionFontFamily,
+fMobileButtonTextColor,
+fMobileButtonFontSize,
+fMobileButtonFontWeight,
+fMobileButtonFontTransform,
+fMobileButtonFontFamily,
+fMobileButtonBackgroundColor
+{%- endcomment -%}
+
+{%- assign searchly_metafields = shop.metafields.searchly -%}
+{%- assign searchly_settings = shop.metafields.searchly.settings -%}
+  <style data-id="searchly-style" type="text/css">
+      .searchly-filter-option-title-text {
+        {%- if searchly_metafields.fTitleTextColor != nil and searchly_metafields.fTitleTextColor != blank -%}
+          color: {{ searchly_metafields.fTitleTextColor | replace: '"','' | replace: '||',',' | strip | strip_html }};
+        {%- endif -%}
+
+        {%- if searchly_metafields.fTitleFontSize != nil and searchly_metafields.fTitleFontSize != blank -%}
+          font-size: {{ searchly_metafields.fTitleFontSize | strip | strip_html }}px;
+        {%- endif -%}
+
+        {%- if searchly_metafields.fTitleFontWeight != nil and searchly_metafields.fTitleFontWeight != blank -%}
+          font-weight: {{ searchly_metafields.fTitleFontWeight | strip | strip_html }};
+        {%- endif -%}
+
+        {%- if searchly_metafields.fTitleFontTransform != nil and searchly_metafields.fTitleFontTransform != blank -%}
+          text-transform: {{ searchly_metafields.fTitleFontTransform | strip | strip_html }};
+        {%- endif -%}
+
+        {%- if searchly_metafields.fTitleFontFamily != nil and searchly_metafields.fTitleFontFamily != blank -%}
+          font-family: {{ searchly_metafields.fTitleFontFamily | strip | strip_html }};
+        {%- endif -%}
+      }
+
+     .searchly-filter-tree-v .searchly-filter-option-title-text:before {
+        {%- if searchly_metafields.fTitleTextColor != nil and searchly_metafields.fTitleTextColor != blank -%}
+          border-top-color: {{ searchly_metafields.fTitleTextColor | replace: '"','' | replace: '||',',' | strip | strip_html }};
+        {%- endif -%}
+      }
+      .searchly-filter-tree-v .searchly-filter-option.searchly-filter-option-collapsed .searchly-filter-option-title-text:before {
+        {%- if searchly_metafields.fTitleTextColor != nil and searchly_metafields.fTitleTextColor != blank -%}
+          border-bottom-color: {{ searchly_metafields.fTitleTextColor | replace: '"','' | replace: '||',',' | strip | strip_html }};
+        {%- endif -%}
+      }
+      .searchly-filter-tree-h .searchly-filter-option-title-heading:before {
+        border-right-color: {{ searchly_metafields.fTitleTextColor | replace: '"','' | replace: '||',',' | strip | strip_html }};
+        border-bottom-color: {{ searchly_metafields.fTitleTextColor | replace: '"','' | replace: '||',',' | strip | strip_html }};
+      }
+
+      .searchly-filter-option-content .searchly-filter-option-item-list .searchly-filter-option-item button,
+      .searchly-filter-option-content .searchly-filter-option-item-list .searchly-filter-option-item .searchly-filter-button,
+      .searchly-filter-option-range-amount input,
+      .searchly-filter-tree-v .searchly-filter-refine-by .searchly-filter-refine-by-items .refine-by-item,
+      .searchly-filter-refine-by-wrapper-v .searchly-filter-refine-by .searchly-filter-refine-by-items .refine-by-item,
+      .searchly-filter-refine-by .searchly-filter-option-title,
+      .searchly-filter-refine-by .searchly-filter-refine-by-items .refine-by-item>a,
+      .searchly-filter-refine-by>span,
+      .searchly-filter-clear,
+      .searchly-filter-clear-all{
+        {%- if searchly_metafields.fOptionTextColor != nil and searchly_metafields.fOptionTextColor != blank -%}
+          color: {{ searchly_metafields.fOptionTextColor | replace: '"','' | replace: '||',',' | strip | strip_html }};
+        {%- endif -%}
+
+        {%- if searchly_metafields.fOptionFontSize != nil and searchly_metafields.fOptionFontSize != blank -%}
+          font-size: {{ searchly_metafields.fOptionFontSize | strip | strip_html }}px;
+        {%- endif -%}
+
+        {%- if searchly_metafields.fOptionFontFamily != nil and searchly_metafields.fOptionFontFamily != blank -%}
+          font-family: {{ searchly_metafields.fOptionFontFamily | strip | strip_html }};
+        {%- endif -%}
+      }
+
+      .searchly-filter-option-multi-level-collections .searchly-filter-option-multi-level-list .searchly-filter-option-item .searchly-filter-button-arrow .searchly-arrow:before,
+      .searchly-filter-option-multi-level-tag .searchly-filter-option-multi-level-list .searchly-filter-option-item .searchly-filter-button-arrow .searchly-arrow:before {
+        {%- if searchly_metafields.fOptionTextColor != nil and searchly_metafields.fOptionTextColor != blank -%}
+          border-right: 1px solid {{ searchly_metafields.fOptionTextColor | replace: '"','' | replace: '||',',' | strip | strip_html }};
+          border-bottom: 1px solid {{ searchly_metafields.fOptionTextColor | replace: '"','' | replace: '||',',' | strip | strip_html }};
+        {%- endif -%}
+      }
+
+      .searchly-filter-refine-by .searchly-filter-refine-by-items .refine-by-item .searchly-filter-clear:before,
+      .searchly-filter-refine-by .searchly-filter-refine-by-items .refine-by-item .searchly-filter-clear:after {
+        background: {{ searchly_metafields.fOptionTextColor | replace: '"','' | replace: '||',',' | strip | strip_html }};
+      }
+
+      .searchly-filter-tree-mobile-button button,
+      .searchly-filter-top-sorting-mobile button {
+        {%- if searchly_metafields.fMobileButtonTextColor != nil and searchly_metafields.fMobileButtonTextColor != blank -%}
+          color: {{ searchly_metafields.fMobileButtonTextColor | replace: '"','' | replace: '||',',' | strip | strip_html }} !important;
+        {%- endif -%}
+
+        {%- if searchly_metafields.fMobileButtonFontSize != nil and searchly_metafields.fMobileButtonFontSize != blank -%}
+          font-size: {{ searchly_metafields.fMobileButtonFontSize | strip | strip_html }}px !important;
+        {%- endif -%}
+
+        {%- if searchly_metafields.fMobileButtonFontWeight != nil and searchly_metafields.fMobileButtonFontWeight != blank -%}
+          font-weight: {{ searchly_metafields.fMobileButtonFontWeight | strip | strip_html }} !important;
+        {%- endif -%}
+
+        {%- if searchly_metafields.fMobileButtonFontTransform != nil and searchly_metafields.fMobileButtonFontTransform != blank -%}
+          text-transform: {{ searchly_metafields.fMobileButtonFontTransform | strip | strip_html }} !important;
+        {%- endif -%}
+
+        {%- if searchly_metafields.fMobileButtonFontFamily != nil and searchly_metafields.fMobileButtonFontFamily != blank -%}
+          font-family: {{ searchly_metafields.fMobileButtonFontFamily | strip | strip_html }} !important;
+        {%- endif -%}
+
+        {%- if searchly_metafields.fMobileButtonBackgroundColor != nil and searchly_metafields.fMobileButtonBackgroundColor != blank -%}
+          background: {{ searchly_metafields.fMobileButtonBackgroundColor | replace: '"','' | replace: '||',',' | strip | strip_html }} !important;
+        {%- endif -%}
+      }
+      .searchly-filter-top-sorting-mobile button>span:after {
+        {%- if searchly_metafields.fMobileButtonTextColor != nil and searchly_metafields.fMobileButtonTextColor != blank -%}
+          color: {{ searchly_metafields.fMobileButtonTextColor | replace: '"','' | replace: '||',',' | strip | strip_html }} !important;
+        {%- endif -%}
+      }
+    </style>
+
+{%- comment -%}
+AC Quickview + Addtocart Style
+
+actTitle
+alStyle
+atcBtnBackgroundColor
+atcBtnBorderColor
+atcBtnHoverBackgroundColor
+atcBtnHoverBorderColor
+atcBtnHoverTextColor
+atcBtnTextColor
+atcEnable
+
+qvAtcMessage
+qvBtnBackgroundColor
+qvBtnBorderColor
+qvBtnHoverBackgroundColor
+qvBtnHoverBorderColor
+qvBtnHoverTextColor
+qvBtnTextColor
+qvEnable
+qvTitle
+{%- endcomment -%}
+
+{%- if template contains 'collection' or template contains 'search' -%}
+  {%- comment -%} Check enable {%- endcomment -%}
+  {%- if searchly_metafields.settings contains 'actionlist' and searchly_metafields.qvEnable == 'true' or searchly_metafields.atcEnable == 'true' -%}
+    <style data-id="searchly-otp-style" type="text/css">
+      .searchly-quickview-btn {
+        {%- if searchly_metafields.atcBtnBackgroundColor != nil and searchly_metafields.qvBtnBackgroundColor != blank -%}
+          background: {{ searchly_metafields.qvBtnBackgroundColor | replace: '"','' | replace: '||',',' | strip }} !important;
+        {%- endif -%}
+
+        {%- if searchly_metafields.qvBtnTextColor != nil and searchly_metafields.qvBtnTextColor != blank -%}
+          color: {{ searchly_metafields.qvBtnTextColor | replace: '"','' | replace: '||',',' | strip }} !important;
+        {%- endif -%}
+
+        {%- if searchly_metafields.qvBtnBorderColor != nil and searchly_metafields.qvBtnBorderColor != blank -%}
+          border-color: {{ searchly_metafields.qvBtnBorderColor | replace: '"','' | replace: '||',',' | strip }} !important;
+        {%- endif -%}
+      }
+      .searchly-quickview-btn svg {
+        fill: {{ searchly_metafields.qvBtnTextColor | replace: '"','' | replace: '||',',' | strip }} !important;
+      }
+      .searchly-quickview-btn:hover {
+        {%- if searchly_metafields.qvBtnHoverBackgroundColor != nil and searchly_metafields.qvBtnHoverBackgroundColor != blank -%}
+          background: {{ searchly_metafields.qvBtnHoverBackgroundColor | replace: '"','' | replace: '||',',' | strip }} !important;
+        {%- endif -%}
+
+        {%- if searchly_metafields.qvBtnHoverTextColor != nil and searchly_metafields.qvBtnHoverTextColor != blank -%}
+          color: {{ searchly_metafields.qvBtnHoverTextColor | replace: '"','' | replace: '||',',' | strip }} !important;
+        {%- endif -%}
+
+        {%- if searchly_metafields.qvBtnHoverBorderColor != nil and searchly_metafields.qvBtnHoverBorderColor != blank -%}
+          border-color: {{ searchly_metafields.qvBtnHoverBorderColor | replace: '"','' | replace: '||',',' | strip }} !important;
+        {%- endif -%}
+      }
+      .searchly-quickview-btn:hover svg {
+        fill: {{ searchly_metafields.qvBtnHoverTextColor | replace: '"','' | replace: '||',',' | strip }} !important;
+      }
+      .searchly-addtocart-btn {
+        {%- if searchly_metafields.atcBtnBackgroundColor != nil and searchly_metafields.atcBtnBackgroundColor != blank -%}
+          background: {{ searchly_metafields.atcBtnBackgroundColor | replace: '"','' | replace: '||',',' | strip }} !important;
+        {%- endif -%}
+
+        {%- if searchly_metafields.atcBtnTextColor != nil and searchly_metafields.atcBtnTextColor != blank -%}
+          color: {{ searchly_metafields.atcBtnTextColor | replace: '"','' | replace: '||',',' | strip }} !important;
+        {%- endif -%}
+
+        {%- if searchly_metafields.atcBtnBorderColor != nil and searchly_metafields.atcBtnBorderColor != blank -%}
+          border-color: {{ searchly_metafields.atcBtnBorderColor | replace: '"','' | replace: '||',',' | strip }} !important;
+        {%- endif -%}
+      }
+      .searchly-addtocart-btn svg {
+        fill: {{ searchly_metafields.atcBtnTextColor | replace: '"','' | replace: '||',',' | strip }} !important;
+      }
+      .searchly-addtocart-btn:hover {
+        {%- if searchly_metafields.atcBtnHoverBackgroundColor != nil and searchly_metafields.atcBtnHoverBackgroundColor != blank -%}
+          background: {{ searchly_metafields.atcBtnHoverBackgroundColor | replace: '"','' | replace: '||',',' | strip }} !important;
+        {%- endif -%}
+
+        {%- if searchly_metafields.atcBtnHoverTextColor != nil and searchly_metafields.atcBtnHoverTextColor != blank -%}
+          color: {{ searchly_metafields.atcBtnHoverTextColor | replace: '"','' | replace: '||',',' | strip }} !important;
+        {%- endif -%}
+
+        {%- if searchly_metafields.atcBtnHoverBorderColor != nil and searchly_metafields.atcBtnHoverBorderColor != blank -%}
+          border-color: {{ searchly_metafields.atcBtnHoverBorderColor | replace: '"','' | replace: '||',',' | strip }} !important;
+        {%- endif -%}
+      }
+      .searchly-addtocart-btn:hover svg {
+        fill: {{ searchly_metafields.atcBtnHoverTextColor | replace: '"','' | replace: '||',',' | strip }} !important;
+      }
+    </style>
+  {%- endif -%}
+  {% if shop.metafields.searchly.customCSS != blank %}
+    <style data-id="searchly-custom-style" type="text/css">
+      {{ shop.metafields.searchly.customCSS | strip }}
+    </style>
+  {% endif %}
+{%- endif -%}

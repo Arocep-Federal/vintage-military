@@ -961,10 +961,10 @@
           "text_align": "vertical-center horizontal-center",
           "image": "shopify:\/\/shop_images\/glow-globe.png",
           "focal_point": "20% 0",
-          "color_border": "#f4f4f4",
+          "color_border": "#111111",
           "height": 650,
           "parallax": true,
-          "vintage_military_overlay": "#c6b694"
+          "vintage_military_overlay": "#34090a"
         }
       },
       "af_hero_2_column_TDJc8V": {

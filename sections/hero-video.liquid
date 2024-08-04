@@ -148,7 +148,7 @@
   window.onload = (event) => {
     console.log("page is fully loaded");
     var video = document.getElementById('Mp4Video-{{ section.id }}')
-    
+    console.log(video);
     // When the 'ended' event fires
     video.addEventListener('ended', function(){
       // Reset the video to 0

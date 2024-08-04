@@ -20,7 +20,8 @@
 <script>
   window.onload = (event) => {
     console.log("page is fully loaded");
-    let video = document.getElementById('Mp4Video-{{ section.id }}')
+    {% comment %} let video = document.getElementById('Mp4Video-{{ section.id }}') {% endcomment %}
+    let video = document.getElementByTagName('video');
     console.log(video);
     // When the 'ended' event fires
     video.addEventListener('ended', function(){

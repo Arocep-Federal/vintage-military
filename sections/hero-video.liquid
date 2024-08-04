@@ -147,7 +147,7 @@
 <script>
   window.onload = (event) => {
     console.log("page is fully loaded");
-    var video = document.getElementByTagName('video')
+    var video = document.getElementById('Mp4Video-{{ section.id }}')
     
     // When the 'ended' event fires
     video.addEventListener('ended', function(){

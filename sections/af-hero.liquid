@@ -7,12 +7,6 @@
     border-color:  {{section.settings.fontcolor}};
   }
 
-  @media screen and (max-width: 768px) {
-    .background-media-text--{{ section.id }} {
-      background: {{ section.settings.color_border }};
-      height:80vh;
-    }
-  }
   .background-media-text--{{ section.id }} .background-media-text__image {
     background-blend-mode: luminosity;
     background-color: {{ section.settings.vintage_military_overlay }};
@@ -25,38 +19,47 @@
   }
   .af-text .kicker { margin: 0 0 10px;}
   .af-text h2 { margin: 0 0 15px}
-
-    @media only screen and (min-width: 590px){
-
-      .background-media-text--{{ section.id }} .animation-contents {
-        text-transform: uppercase;
-        margin-bottom:0;
-      }
-
-      .background-media-text--{{ section.id }} .hero__title .animation-contents{
-        text-transform: uppercase;
-        font-size: 20px;
-        margin-bottom:0;
-      }
-      background-media-text--{{ section.id }} .hero__text-content.vertical-center {
-        padding:0 0 200px
-      }
-
+  
+  @media only screen and (max-width: 589px){ 
+    .hero__text-content.vertical-center {
+      vertical-align:top;
+    }
   }
-  @media only screen and (min-width: 769px){
-
-
-      .background-media-text--{{ section.id }} .hero__text-wrap .hero__text-content.horizontal-right {
-        padding-left:40%;
-      }
-      .background-media-text--{{ section.id }} .hero__text-wrap .hero__text-content.horizontal-left {
-        padding-right:40%;
-      }
-      .background-media-text--{{ section.id }} .hero__text-wrap .hero__text-content.horizontal-center {
-        padding: 0 20%;
-      }
-
+  @media only screen and (min-width: 590px){
+    .background-media-text--{{ section.id }} .animation-contents {
+      text-transform: uppercase;
+      margin-bottom:0;
+    }
+    .background-media-text--{{ section.id }} .hero__title .animation-contents{
+      text-transform: uppercase;
+      font-size: 20px;
+      margin-bottom:0;
+    }
+    .background-media-text--{{ section.id }} .hero__text-content.vertical-center {
+      padding:0 0 200px
+    }
   }
+
+  @media screen and (max-width: 768px) {
+    .background-media-text--{{ section.id }} {
+      background: {{ section.settings.color_border }};
+      height:80vh;
+    }
+  }
+
+  @media only screen and (min-width: 769px){  
+    .background-media-text--{{ section.id }} .hero__text-wrap .hero__text-content.horizontal-right {
+      padding-left:40%;
+    }
+    .background-media-text--{{ section.id }} .hero__text-wrap .hero__text-content.horizontal-left {
+      padding-right:40%;
+    }
+    .background-media-text--{{ section.id }} .hero__text-wrap .hero__text-content.horizontal-center {
+      padding: 0 20%;
+    }
+    
+  }
+
 {%- endstyle -%}
 
 <div

@@ -3,8 +3,7 @@
       height:60vh;
       width:100vw;
       position:relative;
-      overflow:visible;
-      padding-bottom:850px;
+      overflow:visible
     }
 
 
@@ -35,43 +34,39 @@
           margin-bottom:0;
         }
 
-        .hero-wrap {
-          height:550px;
-        }
-        .hero-box {
-            background-color: {{ section.settings.box }};
-              height:800px;
-          width:100vw;
-          position: absolute;
-          bottom:0;
-          z-index:0;
-        }
     }
     @media only screen and (min-width: 769px){
-/* 
+
         .military-background--{{ section.id }} {
             padding-bottom:850px;
-          } */
-          .shopify-section:has(.military-background--{{ section.id }}) .text-center {
-            margin-top:400px;
-          }
+        }
     }
+
+  .shopify-section:has(.military-background--{{ section.id }}) .text-center {
+    margin-top:400px;
+  }
+
 
     .hero-wrap {
       width: 95vw;
       margin:0 auto;
       position:relative;
-      overflow:hidden;
       z-index:2;
       top:-50px;
+      overflow:hidden;
+      height:550px;
       border-radius: 15px;
-
-      height:150px;
     }
-
-
     .hero-img img {width:100%; height: auto}
 
+    .hero-box {
+        background-color: {{ section.settings.box }};
+          height:800px;
+      width:100vw;
+      position: absolute;
+      bottom:0;
+      z-index:0;
+    }
 {%- endstyle -%}
 
 <div

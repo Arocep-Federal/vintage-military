@@ -20,22 +20,19 @@
 <script>
   window.onload = (event) => {
     console.log("page is fully loaded");
-    {% comment %} let video = document.getElementById('Mp4Video-{{ section.id }}') {% endcomment %}
-    let video = document.getElementsByTagName('video');
+    let video = document.getElementById('Mp4Video-{{ section.id }}')
+    {% comment %} let video = document.getElementById('video'); {% endcomment %}
     console.log(video);
-    // When the 'ended' event fires
-    video.addEventListener('ended', function(){
-      // Reset the video to 0
-      video.currentTime = 0;
-      console.log("video ended");
-      // And pause ready for
-      video.pause();
+    {% comment %} // When the 'ended' event fires {% endcomment %}
+    video.onplay = (event) => {
+      {% comment %} // Reset the video to 0 {% endcomment %}
+      {% comment %} video.currentTime = 0; {% endcomment %}
+      console.log("video play");
+      {% comment %} // And pause ready for {% endcomment %}
+      {% comment %} video.pause(); {% endcomment %}
     });
 
-    video.addEventListener('play', function(){
-      
-      console.log("video playing");
-    });
+    
   };
   </script>
 <div

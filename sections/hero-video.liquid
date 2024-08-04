@@ -142,7 +142,7 @@
 <script>
   window.onload = (event) => {
     console.log("page is fully loaded");
-    var video = document.getElementById('Mp4Video-{{ section.id }}')
+    let video = document.getElementById('Mp4Video-{{ section.id }}')
     console.log(video);
     // When the 'ended' event fires
     video.addEventListener('ended', function(){
@@ -152,16 +152,11 @@
       // And pause ready for
       video.pause();
     });
+    
     video.addEventListener('playing', function(){
       
       console.log("video playing");
     });
-    {% comment %} video.addEventListener('loaded', function(){
-      // Reset the video to 0
-      video.currentTime = 0;
-      // And pause ready for
-      video.play();
-    }); {% endcomment %}
   };
   </script>
 {% schema %}

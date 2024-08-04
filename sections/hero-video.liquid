@@ -57,9 +57,9 @@
         id="Mp4Video-{{ section.id }}"
         src="{{ section.settings.video_url }}"
         {% comment %} loop {% endcomment %}
-        muted
-        playsinline
-        autoplay
+        muted="false"
+        playsinline="false"
+        autoplay="false"
         controls="true"
       ></video>
     {%- endif -%}

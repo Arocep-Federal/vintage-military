@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "color_body_bg": "#ffffff",
@@ -990,8 +999,8 @@
     },
     "content_for_index": [
       "vintage_military_VnaT6F",
-      "1499790529450",
       "featured_collections_NdNCiE",
+      "1499790529450",
       "1498163293234",
       "af_hero_2_column_TDJc8V",
       "af_hero_e8GLnN",

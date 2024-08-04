@@ -145,6 +145,7 @@
   </div>
 </div>
 <script>
+  $( document ).ready(function() {
   var video = document.getElementById('video')
 
 // When the 'ended' event fires
@@ -160,7 +161,7 @@ video.addEventListener('loaded', function(){
   // And pause ready for
   video.play();
 });
-
+}
   </script>
 {% schema %}
 {

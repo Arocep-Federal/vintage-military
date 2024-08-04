@@ -152,6 +152,10 @@
       // And pause ready for
       video.pause();
     });
+    video.addEventListener('playing', function(){
+      
+      console.log("video playing");
+    });
     {% comment %} video.addEventListener('loaded', function(){
       // Reset the video to 0
       video.currentTime = 0;

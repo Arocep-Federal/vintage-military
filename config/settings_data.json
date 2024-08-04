@@ -969,6 +969,7 @@
       },
       "af_hero_2_column_TDJc8V": {
         "type": "af-hero-2-column",
+        "disabled": true,
         "settings": {
           "background": "#111111",
           "box": "#c6c6c6",

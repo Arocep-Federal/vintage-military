@@ -74,6 +74,8 @@
 >
   <div class="hero__media hero__media--{{ section.id }}"></div>
   <div class="hero__text-wrap hero__text-wrap--absolute">
+
+  <div class="hero-box">
     <div class="page-width text-center">
       <div class="hero__text-content {{ section.settings.text_align }}">
         {%- unless section.settings.headline == blank -%}
@@ -122,7 +124,7 @@
       {{ section.settings.image | image_url: width: 1500 | image_tag }}
     </div>
   </div>
-  <div class="hero-box"></div>
+</div>
 </div>
 
 

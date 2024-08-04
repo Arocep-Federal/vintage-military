@@ -12,12 +12,23 @@
     }
   }
 
-  .hero--{{ section.id }} .hero__media video  {
+  .hero--{{ section.id }} .hero__media>video  {
     width:100vw;
   }
 
 {%- endstyle -%}
+<script>
+  var video = document.getElementById('video')
 
+// When the 'ended' event fires
+video.addEventListener('ended', function(){
+  // Reset the video to 0
+  video.currentTime = 0;
+  // And pause ready for
+  video.pause();
+});
+
+  </script>
 <div
   data-section-id="{{ section.id }}"
   data-section-type="video-section"
@@ -57,11 +68,11 @@
         id="Mp4Video-{{ section.id }}"
         src="{{ section.settings.video_url }}"
         {% comment %} 
+      {% endcomment %}
         playsinline="true"
         loop 
         muted="true"
         autoplay="true"
-      {% endcomment %}
         controls="controls"
         poster="https://cdn.shopify.com/s/files/1/0666/7884/9714/files/arocep_poster.jpg?v=1722788294"
       ></video>

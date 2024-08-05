@@ -1,8 +1,5 @@
 {%- style -%}
-  .military-background--{{ section.id }} {
-
-
-  }
+  .military-background--{{ section.id }} {  }
 
 
   .shopify-section:has(.military-background--{{ section.id }})  {
@@ -65,7 +62,7 @@
       {{ section.settings.image | image_url: width: 1500 | image_tag }}
     </div>
   </div>
-  <div class="hero__text-wrap hero__text-wrap--absolute">
+  <div class="hero__text-wrap">
     <div class="page-width text-center">
       <div class="hero__text-content {{ section.settings.text_align }}">
         {%- unless section.settings.headline == blank -%}

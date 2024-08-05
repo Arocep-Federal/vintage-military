@@ -47,6 +47,7 @@
     width: 90vw;
     margin:0 auto;
     z-index:1;
+    overflow:hidden;
     border-radius: 15px;
   }
   .hero-img img {width:100%; height: auto}
@@ -58,7 +59,7 @@
   data-aos="hero__animation"
   loading="lazy"
 >
-  <div class="hero__media hero__media--{{ section.id }}"></div>
+  {% comment %} <div class="hero__media hero__media--{{ section.id }}"></div> {% endcomment %}
   <div class="hero-wrap">
     <div class="hero-img">
       {{ section.settings.image | image_url: width: 1500 | image_tag }}

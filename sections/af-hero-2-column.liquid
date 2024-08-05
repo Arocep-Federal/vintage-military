@@ -11,7 +11,8 @@
 
   .shopify-section:has(.military-background--{{ section.id }})  {
     background-color: {{ section.settings.box }};
-    border-top:120px solid {{section.settings.background}};
+    /* border-top:120px solid {{section.settings.background}}; */
+    border-top:120px solid transparent;
   }
   .shopify-section:has(.military-background--{{ section.id }}) .af-text {
     color: {{section.settings.fontcolor}};

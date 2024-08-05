@@ -10,7 +10,7 @@
 
     .shopify-section:has(.military-background--{{ section.id }})  {
       background-color: {{section.settings.background}};
-      border-top:120px solid {{ section.settings.box }}
+
     }
     .shopify-section:has(.military-background--{{ section.id }}) .af-text {
       color: {{section.settings.fontcolor}};
@@ -56,6 +56,14 @@
     }
     .hero-img img {width:100%; height: auto}
 
+    .hero-box {
+        background-color: {{ section.settings.box }};
+          height:800px;
+      width:100vw;
+      position: absolute;
+      bottom:0;
+      z-index:0;
+    }
 {%- endstyle -%}
 
 <div
@@ -66,6 +74,8 @@
 >
   <div class="hero__media hero__media--{{ section.id }}"></div>
   <div class="hero__text-wrap hero__text-wrap--absolute">
+
+  <div class="hero-box">
     <div class="page-width text-center">
       <div class="hero__text-content {{ section.settings.text_align }}">
         {%- unless section.settings.headline == blank -%}
@@ -107,7 +117,7 @@
           </div>
         {%- endunless -%}
       </div>
-    
+    </div>
   </div>
   <div class="hero-wrap">
     <div class="hero-img">

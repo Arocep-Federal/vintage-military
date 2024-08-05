@@ -1,6 +1,6 @@
 {%- style -%}
   .military-background--{{ section.id }} {
-    height:auto;
+    min-height:60vh;
     width:100vw;
   }
 
@@ -34,10 +34,8 @@
 
   @media only screen and (min-width: 769px){
       .military-background--{{ section.id }} {
-          /* padding-bottom:850px; */
       }
       .shopify-section:has(.military-background--{{ section.id }}) .text-center {
-        /* margin-top:400px; */
       }
   }
 

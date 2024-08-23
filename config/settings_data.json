@@ -903,18 +903,18 @@
               "size": "square-small"
             }
           },
-          "collection_qbDLXR": {
-            "type": "collection",
-            "settings": {
-              "collection": "automated-collection",
-              "focal_point": "center center",
-              "size": "square-small"
-            }
-          },
           "collection_dLntNj": {
             "type": "collection",
             "settings": {
               "collection": "",
+              "focal_point": "center center",
+              "size": "square-small"
+            }
+          },
+          "collection_qbDLXR": {
+            "type": "collection",
+            "settings": {
+              "collection": "automated-collection",
               "focal_point": "center center",
               "size": "square-small"
             }
@@ -940,8 +940,8 @@
           "collection_pDQEzP",
           "collection_FEkqDy",
           "collection_QDjmLf",
-          "collection_qbDLXR",
           "collection_dLntNj",
+          "collection_qbDLXR",
           "collection_w77LU3",
           "collection_jTgdig"
         ],

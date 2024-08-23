@@ -10,7 +10,10 @@
 <div style="background-color:black">
 
 
-<div class="page-width">
+{% comment %} <div class="page-width"> {% endcomment %}
+<div>
+  
+  
   {%- if section.settings.title != blank -%}
     <div class="section-header">
       <h2 class="section-header__title">{{ section.settings.title }}</h2>

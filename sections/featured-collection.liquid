@@ -25,7 +25,7 @@
   {%- if section.settings.title != blank -%}
     <div class="page-width">
       <div class="section-header">
-        <h2 class="section-header__title light-headline">
+        <h2 class="section-header__title">
           {{ section.settings.title }}
           {% if section.settings.view_all and section.settings.rows == 1 %}
             <a href="{{ collections[section.settings.home_featured_products].url }}" class="section-header__link">{{ 'collections.general.all_of_collection' | t }}</a>

@@ -59,6 +59,8 @@
   --colorDrawerTextDarken:{{ settings.color_drawer_text | default: "#e2dfd1" | color_darken: 15 }};
   --colorDrawerButton:{{ settings.color_drawer_button | default: "#a26b25" }};
   --colorDrawerButtonText:{{ settings.color_drawer_button_text | default: "#e2dfd1" }};
+
+  --sectionPadding {{ settings.section_padding | default: 70px }}
 }
 
 @keyframes spin{
@@ -445,7 +447,7 @@ body,html{
 @media only screen and (min-width:590px){
 
 .page-full,.page-width{
-    padding:0 40px
+    padding:0 -var(--sectionPadding);
 }
   }
 

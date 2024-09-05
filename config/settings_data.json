@@ -946,8 +946,7 @@
           "collection_jTgdig"
         ],
         "custom_css": [
-          ".section-header {margin-bottom: 10px;}",
-          " {position: relative; top: -120px;}"
+
         ],
         "settings": {
           "title": "Shop by Category",

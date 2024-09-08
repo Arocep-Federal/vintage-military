@@ -930,7 +930,7 @@
           "collection_jTgdig": {
             "type": "collection",
             "settings": {
-              "collection": "",
+              "collection": "inkjet-printers",
               "focal_point": "center center",
               "size": "square-small"
             }

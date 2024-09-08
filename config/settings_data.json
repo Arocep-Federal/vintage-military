@@ -922,7 +922,7 @@
           "collection_w77LU3": {
             "type": "collection",
             "settings": {
-              "collection": "snow-collection",
+              "collection": "monitors",
               "focal_point": "center center",
               "size": "wide"
             }

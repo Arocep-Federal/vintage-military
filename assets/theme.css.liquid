@@ -7570,7 +7570,7 @@ a.color-swatch:hover{
 
 .skrim__item-content .skrim__overlay{
     position:relative;
-    transition:all .25s ease-out 0s; 
+    transition:all .2s ease-out 0s; 
     filter: grayscale(1)
   }
 
@@ -7600,11 +7600,11 @@ a.color-swatch:hover{
       z-index:auto;
       background:#000;
       opacity:0;
-      transition:opacity 0.25s ease;
+      transition:opacity 0.5s ease;
     }
 
 [data-animate_sections=true] .skrim__item-content .skrim__overlay:focus,[data-animate_sections=true] .skrim__item-content .skrim__overlay:hover{
-        transform:scale(.25)
+        transform:scale(1.02)
       }
 
 [data-animate_sections=true] .skrim__item-content .skrim__overlay:focus:before,[data-animate_sections=true] .skrim__item-content .skrim__overlay:hover:before{
@@ -7631,13 +7631,13 @@ a.color-swatch:hover{
 
 .skrim__title{
   position:absolute;
-  bottom:50px;
+  bottom:0;
   left:0;
   margin:0 12.5px 12.5px 12.5px;
   pointer-events:none;
   color:{{ settings.color_image_text | default: "#e2dfd1" }};
   color:var(--colorHeroText);
-  /* transition:bottom 0.5s ease */
+  transition:bottom 0.5s ease
 }
 
 @media only screen and (min-width:590px){
@@ -7651,7 +7651,7 @@ a.color-swatch:hover{
   left:auto;
   right:0;
 }
-
+/* 
 .skrim__underline-me{
   position:relative;
   display:inline-block;
@@ -7675,7 +7675,7 @@ a.color-swatch:hover{
 
 [data-animate_underlines=true] .skrim__link:hover .skrim__title{
       bottom:10px;
-    }
+    } */
 
 [data-animate_sections=true] [data-aos=skrim__animation] .skrim__overlay{
     transform:scale(1.1);

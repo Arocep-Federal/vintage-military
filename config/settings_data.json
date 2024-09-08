@@ -906,7 +906,7 @@
           "collection_dLntNj": {
             "type": "collection",
             "settings": {
-              "collection": "",
+              "collection": "film-scanners",
               "focal_point": "center center",
               "size": "square-small"
             }

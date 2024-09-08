@@ -42,9 +42,11 @@
     {%- endif -%}
 
     <div class="skrim__title">
-      <div class="skrim__underline-me">
+      {% comment %} <div class="skrim__underline-me"> {% endcomment %}
+       <div>
         {{ collection_title }}
         </div>
+        {% comment %} </div> {% endcomment %}
     </div>
   </a>
 </div>

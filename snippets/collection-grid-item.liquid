@@ -20,7 +20,8 @@
   endif
 -%}
 
-<div class="grid__item {{ grid_item_width }} skrim__item" data-aos="skrim__animation">
+{% comment %} <div class="grid__item {{ grid_item_width }} skrim__item" data-aos="skrim__animation"> {% endcomment %}
+<div class="grid__item {{ grid_item_width }} skrim__item" >
   <a href="{{ collection.url }}" class="skrim__link skrim__item-content">
     {%- if collection.empty? -%}
       {% capture placeholder %}collection-{% cycle 1,2,3,4,5,6 %}{% endcapture %}

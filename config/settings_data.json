@@ -1048,16 +1048,28 @@
           "autoplay": true,
           "autoplay_speed": 5
         }
+      },
+      "featured_collection_switcher_hcUqiU": {
+        "type": "featured-collection-switcher",
+        "settings": {
+          "title": "Most popular",
+          "collection1": "information-technology",
+          "collection2": "notebooks",
+          "per_row": 5,
+          "view_all": true,
+          "divider": false
+        }
       }
     },
     "content_for_index": [
       "1499790529450",
       "featured_collections_NdNCiE",
       "1498163293234",
+      "vintage_military_39Amwe",
+      "featured_collection_switcher_hcUqiU",
       "af_hero_2_column_TDJc8V",
       "af_hero_e8GLnN",
       "af_3_column_NaWXNd",
-      "vintage_military_39Amwe",
       "1499790782828",
       "vintage_military_dUhp4V",
       "testimonials_FYBL7k",

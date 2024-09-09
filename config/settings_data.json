@@ -996,14 +996,14 @@
           "kicker": "Proud to be",
           "headline": "Woman Owned & Operated",
           "subheadline": "Arocep Federal, LLC is a Woman-Owned Small Business GSA-certified schedule holder headquartered in Chicagoland's southwest suburbs.",
-          "button_label": "",
+          "button_label": "Read About Us",
           "button_link": "",
           "text_align": "vertical-bottom horizontal-right",
           "image": "shopify:\/\/shop_images\/bg-woman-owned.jpg",
-          "focal_point": "20% 50%",
+          "focal_point": "center",
           "color_border": "#f4f4f4",
-          "height": 450,
-          "parallax": false,
+          "height": 350,
+          "parallax": true,
           "vintage_military_overlay": "none"
         }
       }

@@ -16,6 +16,16 @@
   endif
 -%}
 
+{%- style -%}
+
+.site-footer {
+  background-image:url('https://cdn.shopify.com/s/files/1/0666/7884/9714/files/stripe-horizontal.png?v=1725899104');
+  background-repeat:no-repeat;
+  background_position: top;
+}
+
+{%- end style  -%}
+
 <footer class="site-footer" data-section-id="{{ section.id }}" data-section-type="footer-section">
   <div class="page-width">
 
@@ -161,11 +171,6 @@
         "type": "header",
         "content": "Language selector",
         "info": "To add a language, go to your [language settings.](/admin/settings/languages)"
-      },
-      {
-        "type": "image_picker",
-        "id": "image",
-        "label": "Image"
       },
       {
         "type": "checkbox",

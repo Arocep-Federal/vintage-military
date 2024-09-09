@@ -954,41 +954,6 @@
           "enable_gutter": true
         }
       },
-      "af_hero_e8GLnN": {
-        "type": "af-hero",
-        "custom_css": [
-
-        ],
-        "settings": {
-          "fontcolor": "#ffffff",
-          "kicker": "Discover",
-          "headline": "The Arocep Advantage",
-          "subheadline": "Providing transparency of products and pricing with a low cost to match. Streamlined purchasing simplifies the acquisition experience while meeting your socio-economic goals.",
-          "button_label": "Optional button",
-          "button_link": "shopify:\/\/pages\/contact",
-          "text_align": "vertical-center horizontal-center",
-          "image": "shopify:\/\/shop_images\/glow-globe.png",
-          "focal_point": "20% 0",
-          "color_border": "#111111",
-          "height": 650,
-          "parallax": true,
-          "vintage_military_overlay": "#34090a"
-        }
-      },
-      "af_hero_2_column_TDJc8V": {
-        "type": "af-hero-2-column",
-        "settings": {
-          "background": "#000000",
-          "box": "#c6c6c6",
-          "fontcolor": "#000000",
-          "kicker": "Inspired by",
-          "headline": "The Brave Men & Women",
-          "copy": "Arocep's commitment to serving the United States government is our highest priority. We proudly represent and support the greatest country in the world and the brave men and women who serve it.",
-          "image": "shopify:\/\/shop_images\/AdobeStock_359492610_2.png",
-          "link": "",
-          "link_text": "Optional button"
-        }
-      },
       "af_hero_KWwkAL": {
         "type": "af-hero",
         "settings": {
@@ -1049,15 +1014,22 @@
           "autoplay_speed": 5
         }
       },
-      "featured_collection_switcher_hcUqiU": {
-        "type": "featured-collection-switcher",
+      "af_hero_e8GLnN": {
+        "type": "af-hero",
         "settings": {
-          "title": "Most popular",
-          "collection1": "information-technology",
-          "collection2": "notebooks",
-          "per_row": 5,
-          "view_all": true,
-          "divider": false
+          "fontcolor": "#ffffff",
+          "kicker": "Discover",
+          "headline": "The Arocep Advantage",
+          "subheadline": "Providing transparency of products and pricing with a low cost to match. Streamlined purchasing simplifies the acquisition experience while meeting your socio-economic goals.",
+          "button_label": "Optional button",
+          "button_link": "shopify:\/\/pages\/contact",
+          "text_align": "vertical-center horizontal-center",
+          "image": "shopify:\/\/shop_images\/glow-globe.png",
+          "focal_point": "20% 0",
+          "color_border": "#111111",
+          "height": 650,
+          "parallax": true,
+          "vintage_military_overlay": "#34090a"
         }
       }
     },
@@ -1066,11 +1038,9 @@
       "featured_collections_NdNCiE",
       "1498163293234",
       "vintage_military_39Amwe",
-      "featured_collection_switcher_hcUqiU",
-      "af_hero_2_column_TDJc8V",
+      "1499790782828",
       "af_hero_e8GLnN",
       "af_3_column_NaWXNd",
-      "1499790782828",
       "vintage_military_dUhp4V",
       "testimonials_FYBL7k",
       "1499790633921",

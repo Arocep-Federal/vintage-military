@@ -1006,6 +1006,48 @@
           "parallax": false,
           "vintage_military_overlay": "none"
         }
+      },
+      "slideshow_EjCy6E": {
+        "type": "slideshow",
+        "blocks": {
+          "image_LUeQNg": {
+            "type": "image",
+            "settings": {
+              "title": "Endless\npossibilities.",
+              "title_size": 80,
+              "subheading": "Bring your brand to life",
+              "link": "",
+              "link_text": "Optional button",
+              "text_align": "vertical-bottom horizontal-left",
+              "image": "shopify:\/\/shop_images\/glow-globe.png",
+              "focal_point": "center center"
+            }
+          },
+          "image_cgJdPY": {
+            "type": "image",
+            "settings": {
+              "title": "Two line\nslide titles.",
+              "title_size": 80,
+              "subheading": "And big, beautiful imagery",
+              "link": "",
+              "link_text": "Optional button",
+              "text_align": "vertical-bottom horizontal-left",
+              "focal_point": "center center"
+            }
+          }
+        },
+        "block_order": [
+          "image_LUeQNg",
+          "image_cgJdPY"
+        ],
+        "settings": {
+          "section_height": "650px",
+          "mobile_height": "auto",
+          "parallax": true,
+          "style": "dots",
+          "autoplay": true,
+          "autoplay_speed": 5
+        }
       }
     },
     "content_for_index": [
@@ -1022,6 +1064,7 @@
       "1499790633921",
       "16610163183f9ce193",
       "1608333620f9398daa",
+      "slideshow_EjCy6E",
       "1498501481980",
       "af_hero_KWwkAL"
     ]

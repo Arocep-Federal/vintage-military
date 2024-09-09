@@ -215,12 +215,12 @@
       "collection-template": {
         "type": "collection-template",
         "settings": {
-          "per_row": 5,
+          "per_row": 4,
           "collection_image_enable": true,
           "parallax": true,
           "description_position": "top",
           "collection_subnav_style": "inline",
-          "collection_tags_style": "none",
+          "collection_tags_style": "inline",
           "collection_sort_enable": true
         }
       },
@@ -1017,6 +1017,15 @@
           "fontcolor": "#ffffff",
           "title": "Proudly Partnered With",
           "align_text": "left"
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "title_enable": true,
+          "display_type": "all",
+          "sort": "alphabetical",
+          "grid": "3"
         }
       }
     },

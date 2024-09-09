@@ -1,7 +1,6 @@
 {%- style -%}
   .shopify-section:has(.background-media-text--{{ section.id }}) .af-text {
     color: {{section.settings.fontcolor}};
-    border-bottom:6px solid black; 
   }
   .shopify-section:has(.background-media-text--{{ section.id }}) .af-text .btn {
     color: {{section.settings.fontcolor}};
@@ -11,6 +10,7 @@
   .background-media-text--{{ section.id }} .background-media-text__image {
     background-blend-mode: luminosity;
     background-color: {{ section.settings.vintage_military_overlay }};
+    border-bottom:6px solid black; 
   }
   .background-media-text--{{ section.id }} .background-media-text__inner {
     color: {{section.settings.fontcolor}}

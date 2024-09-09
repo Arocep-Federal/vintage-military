@@ -354,59 +354,6 @@
           "parallax": true
         }
       },
-      "1499790782828": {
-        "type": "text-columns",
-        "blocks": {
-          "1499790782828-0": {
-            "type": "text_block",
-            "settings": {
-              "enable_image": true,
-              "image": "shopify:\/\/shop_images\/partner_rnd_rect_lexmark2.png",
-              "title": "Lexmark",
-              "text": "<p>Arocep Federal is an authorized Lexmark federal distributor. Whether you're in the workplace, at home, or on the go - we have solutions that fit whatever your need, whether large or small. <\/p>",
-              "button_label": "Explore Lexmark Solutions",
-              "button_link": "shopify:\/\/collections\/all"
-            }
-          },
-          "1499790782828-1": {
-            "type": "text_block",
-            "settings": {
-              "enable_image": true,
-              "image": "shopify:\/\/shop_images\/partner_rnd_rect_gatorz2.png",
-              "title": "Gatorz",
-              "text": "<p>Gatorz Eyewear builds tough, hand crafted, American made eyewear from billet aluminum, providing the most innovative and durable eye protection for those who push the limits every day.<\/p>",
-              "button_label": "Explore Gatorz Eyewear",
-              "button_link": ""
-            }
-          },
-          "1499790782828-2": {
-            "type": "text_block",
-            "settings": {
-              "enable_image": true,
-              "image": "shopify:\/\/shop_images\/partner_rnd_rect_skilcraft3.png",
-              "title": "Skilcraft",
-              "text": "<p>SKILCRAFT® offers more than 320 product lines to meet the demands of your office needs. Everything from shipping  supplies, toner cartridges and computer accessories, we supply them all.<\/p>",
-              "button_label": "Explore Skilcraft Products",
-              "button_link": ""
-            }
-          }
-        },
-        "block_order": [
-          "1499790782828-0",
-          "1499790782828-1",
-          "1499790782828-2"
-        ],
-        "custom_css": [
-
-        ],
-        "settings": {
-          "background": "#373737",
-          "fontcolor": "#ffffff",
-          "title": "Proudly Partnered With",
-          "align_text": "left",
-          "divider": false
-        }
-      },
       "product-sections-template": {
         "type": "product-sections-template",
         "blocks": {
@@ -1031,6 +978,46 @@
           "parallax": true,
           "vintage_military_overlay": "#34090a"
         }
+      },
+      "image_carousel_floating_QDEH6y": {
+        "type": "image-carousel-floating",
+        "blocks": {
+          "image_block_iUpAh9": {
+            "type": "image_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/partner_rnd_rect_skilcraft3.png",
+              "button_link": ""
+            }
+          },
+          "image_block_rtcKrz": {
+            "type": "image_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/partner_rnd_rect_lexmark2.png",
+              "button_link": ""
+            }
+          },
+          "image_block_6WNEFj": {
+            "type": "image_block",
+            "settings": {
+              "enable_image": true,
+              "image": "shopify:\/\/shop_images\/partner_rnd_rect_gatorz2.png",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "image_block_iUpAh9",
+          "image_block_rtcKrz",
+          "image_block_6WNEFj"
+        ],
+        "settings": {
+          "background": "#111111",
+          "fontcolor": "#ffffff",
+          "title": "Proudly Partnered With",
+          "align_text": "left"
+        }
       }
     },
     "content_for_index": [
@@ -1038,7 +1025,7 @@
       "featured_collections_NdNCiE",
       "1498163293234",
       "vintage_military_39Amwe",
-      "1499790782828",
+      "image_carousel_floating_QDEH6y",
       "af_hero_e8GLnN",
       "af_3_column_NaWXNd",
       "vintage_military_dUhp4V",

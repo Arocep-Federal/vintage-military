@@ -978,7 +978,7 @@
       "af_hero_2_column_TDJc8V": {
         "type": "af-hero-2-column",
         "settings": {
-          "background": "#111111",
+          "background": "#000000",
           "box": "#c6c6c6",
           "fontcolor": "#000000",
           "kicker": "Inspired by",

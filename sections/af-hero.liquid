@@ -10,7 +10,6 @@
   .background-media-text--{{ section.id }} .background-media-text__image {
     background-blend-mode: luminosity;
     background-color: {{ section.settings.vintage_military_overlay }};
-    border-bottom:6px solid black; 
   }
   .background-media-text--{{ section.id }} .background-media-text__inner {
     color: {{section.settings.fontcolor}}
@@ -31,6 +30,7 @@
     .background-media-text--{{ section.id }} .animation-contents {
       /* text-transform: uppercase; */
       margin-bottom:0;
+      border-bottom:6px solid {{ section.settings.color_border }}; 
     }
     .background-media-text--{{ section.id }} .hero__title .animation-contents{
       text-transform: uppercase;
@@ -41,14 +41,15 @@
       padding:0 0 200px
     }
   }
-
+  
   @media screen and (max-width: 768px) {
     .background-media-text--{{ section.id }} {
       background: {{ section.settings.color_border }};
       height:80vh;
+      border-bottom:6px solid {{ section.settings.color_border }}; 
     }
   }
-
+  
   @media only screen and (min-width: 769px){  
     .background-media-text--{{ section.id }} .hero__text-wrap .hero__text-content.horizontal-right {
       padding-left:40%;
@@ -67,7 +68,8 @@
 <div
   data-section-id="{{ section.id }}"
   data-section-type="background-image"
-  class="background-media-text background-media-text--{{ section.id }} background-media-text--{{ section.settings.height }} loaded"
+  {% comment %} class="background-media-text background-media-text--{{ section.id }} background-media-text--{{ section.settings.height }} loaded" {% endcomment %}
+  class="background-media-text background-media-text--{{ section.id }} background-media-text--{{ section.settings.height }}"
   data-aos="background-media-text__animation"
   {% if section.settings.parallax %}
     data-parallax="true"

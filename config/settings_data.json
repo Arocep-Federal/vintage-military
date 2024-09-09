@@ -1000,9 +1000,9 @@
           "button_link": "",
           "text_align": "vertical-bottom horizontal-right",
           "image": "shopify:\/\/shop_images\/bg-woman-owned.jpg",
-          "focal_point": "center",
+          "focal_point": "20% 50%",
           "color_border": "#f4f4f4",
-          "height": 350,
+          "height": 450,
           "parallax": true,
           "vintage_military_overlay": "none"
         }

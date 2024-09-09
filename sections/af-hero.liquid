@@ -6,6 +6,9 @@
     color: {{section.settings.fontcolor}};
     border-color:  {{section.settings.fontcolor}};
   }
+  .shopify-section {
+    border-bottom: 6px solid black;
+  }
 
   .background-media-text--{{ section.id }} .background-media-text__image {
     background-blend-mode: luminosity;
@@ -30,7 +33,6 @@
     .background-media-text--{{ section.id }} .animation-contents {
       /* text-transform: uppercase; */
       margin-bottom:0;
-      border-bottom:6px solid {{ section.settings.color_border }}; 
     }
     .background-media-text--{{ section.id }} .hero__title .animation-contents{
       text-transform: uppercase;
@@ -46,7 +48,6 @@
     .background-media-text--{{ section.id }} {
       background: {{ section.settings.color_border }};
       height:80vh;
-      border-bottom:6px solid {{ section.settings.color_border }}; 
     }
   }
   

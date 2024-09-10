@@ -62,10 +62,7 @@
             <a href="{{ block.settings.button_link }}">
           {% endif %}
           {% if block.settings.image != blank %}
-            <div
-              class="image-wrap text-spacing"
-              style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;"
-            >
+            <div style="width:100%; overflow:hidden">
               {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
               <img
                 class="lazyload"

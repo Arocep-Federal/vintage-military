@@ -1005,12 +1005,28 @@
               "image": "shopify:\/\/shop_images\/partner_rnd_rect_gatorz2.png",
               "button_link": ""
             }
+          },
+          "image_block_UitW93": {
+            "type": "image_block",
+            "settings": {
+              "enable_image": true,
+              "button_link": ""
+            }
+          },
+          "image_block_jex3UL": {
+            "type": "image_block",
+            "settings": {
+              "enable_image": true,
+              "button_link": ""
+            }
           }
         },
         "block_order": [
           "image_block_iUpAh9",
           "image_block_rtcKrz",
-          "image_block_6WNEFj"
+          "image_block_6WNEFj",
+          "image_block_UitW93",
+          "image_block_jex3UL"
         ],
         "settings": {
           "background": "#111111",

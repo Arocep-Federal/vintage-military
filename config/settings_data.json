@@ -819,7 +819,7 @@
           "fontcolor": "#ffffff",
           "title": "Don't take our word for it...",
           "align_text": "center",
-          "round_images": true,
+          "round_images": false,
           "divider": false
         }
       },

@@ -349,12 +349,12 @@
           "text": "<p>Search \"Arocep Federal\" in FedMall and GSA Advantage! for products and services available today. <\/p><p><strong>FEDMALL CONTRACT(S): <\/strong><a href=\"https:\/\/www.fedmall.mil\/index.html\" target=\"_blank\" title=\"https:\/\/www.fedmall.mil\/index.html\">GS02F0052V<\/a>; <a href=\"https:\/\/www.fedmall.mil\/index.html\" target=\"_blank\" title=\"https:\/\/www.fedmall.mil\/index.html\">MARKETPLACE_4UB10<\/a><\/p><p><strong>GSA CONTRACT: <\/strong><a href=\"https:\/\/www.gsaadvantage.gov\/advantage\/ws\/search\/advantage_search?q=0:2GS-02F-0052V&db=0&searchType=1\" target=\"_blank\" title=\"https:\/\/www.gsaadvantage.gov\/advantage\/ws\/search\/advantage_search?q=0:2GS-02F-0052V&db=0&searchType=1\">GS02F0052V<\/a><\/p>",
           "button_label": "",
           "button_link": "",
-          "image": "shopify:\/\/shop_images\/AdobeStock_225122865.jpg",
-          "focal_point": "20% 50%",
+          "image": "shopify:\/\/shop_images\/bg-contracting.jpg",
+          "focal_point": "80% 50%",
           "color_border": "#e2dfd1",
           "layout": "left",
-          "height": 750,
-          "parallax": true
+          "height": 550,
+          "parallax": false
         }
       },
       "product-sections-template": {
@@ -616,20 +616,10 @@
               "width": "50%",
               "alignment": "center"
             }
-          },
-          "16083336201528d8a6-0": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/arocep_brandmark_outline_grey_30.png",
-              "link": "https:\/\/www.gsaelibrary.gsa.gov\/ElibMain\/contractorInfo.do?contractNumber=GS-02F-0052V&contractorName=AROCEP+FEDERAL%2C+LLC&executeQuery=YES",
-              "width": "33%",
-              "alignment": "center"
-            }
           }
         },
         "block_order": [
-          "16083336201528d8a6-1",
-          "16083336201528d8a6-0"
+          "16083336201528d8a6-1"
         ],
         "settings": {
           "full_width": true,
@@ -936,24 +926,6 @@
           "vintage_military_overlay": "none"
         }
       },
-      "af_hero_e8GLnN": {
-        "type": "af-hero",
-        "settings": {
-          "fontcolor": "#ffffff",
-          "kicker": "Discover",
-          "headline": "The Arocep Advantage",
-          "subheadline": "Providing transparency of products and pricing with a low cost to match. Streamlined purchasing simplifies the acquisition experience while meeting your socio-economic goals.",
-          "button_label": "Optional button",
-          "button_link": "shopify:\/\/pages\/contact",
-          "text_align": "vertical-center horizontal-center",
-          "image": "shopify:\/\/shop_images\/saluting.jpg",
-          "focal_point": "20% 0",
-          "color_border": "#111111",
-          "height": 650,
-          "parallax": true,
-          "vintage_military_overlay": "#292929"
-        }
-      },
       "image_carousel_floating_QDEH6y": {
         "type": "image-carousel-floating",
         "blocks": {
@@ -1087,7 +1059,6 @@
       "1499790633921",
       "16610163183f9ce193",
       "1608333620f9398daa",
-      "af_hero_e8GLnN",
       "logo_list_JeL3Dt",
       "af_hero_KWwkAL"
     ]

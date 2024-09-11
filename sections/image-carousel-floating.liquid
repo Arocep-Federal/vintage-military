@@ -35,7 +35,7 @@
   {% endif %}
 
   <div class="grid {% unless section.blocks.size == 5 %}grid--uniform{% endunless %} grid--flush-bottom">
-    {%- liquid
+    {% comment %} {%- liquid
       assign grid_item_width = 'medium-up--one-third'
       case section.blocks.size
         when 1
@@ -45,7 +45,7 @@
         when 4
           assign grid_item_width = 'medium-up--one-half'
       endcase
-    -%}
+    -%} {% endcomment %}
     {%- for block in section.blocks -%}
       {%- if section.blocks.size == 5 and forloop.index < 3 -%}
         {%- assign column_width = 'medium-up--one-half' -%}
@@ -57,12 +57,19 @@
         {{ block.shopify_attributes }}
         data-aos="row-of-5"
       >
-        {%- if block.settings.enable_image -%}
+        {% comment %} {%- if block.settings.enable_image -%} {% endcomment %}
+
+{% comment %} 
           {% if block.settings.button_link != blank %}
             <a href="{{ block.settings.button_link }}">
           {% endif %}
+          {% endcomment %}
+         
           {% if block.settings.image != blank %}
-            <div style="width:100%; overflow:hidden">
+            <div
+              class="image-wrap text-spacing"
+              style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;"
+            >
               {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
               <img
                 class="lazyload"
@@ -76,10 +83,15 @@
           {% else %}
             <div class="image-wrap text-spacing">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
           {% endif %}
+       
+       
           {% if block.settings.button_link != blank %}
             </a>
           {% endif %}
-        {% endif %}
+
+
+
+        {% comment %} {% endif %} {% endcomment %}
       </div>
     {%- endfor -%}
   </div>

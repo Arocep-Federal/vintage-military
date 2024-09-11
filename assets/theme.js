@@ -5296,7 +5296,7 @@ lazySizesConfig.expFactor = 4;
       var mobileOptions = $.extend({}, defaults, {
         slidesToShow: 1,
         slidesToScroll: 1,
-        adaptiveHeight: true
+        adaptiveHeight: false
       });
   
       slideCount = $slider.data('count');

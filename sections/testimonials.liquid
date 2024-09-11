@@ -67,12 +67,12 @@
                   >
                 </div>
               {% endif %}
-              {% if block.settings.author != blank %}
-                <cite>{{ block.settings.author | escape }}</cite>
-              {% endif %}
             </blockquote>
           </div>
-          </div>
+          {% if block.settings.author != blank %}
+            <cite>{{ block.settings.author | escape }}</cite>
+          {% endif %}
+        </div>
           </div>
         {%- endfor -%}
       </div>

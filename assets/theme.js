@@ -5281,8 +5281,8 @@ lazySizesConfig.expFactor = 4;
       centerMode:true,
       autoplay: false,
       touchThreshold: 20,
-      slidesToShow: 5,
-      slidesToScroll: 3
+      slidesToShow: 4,
+      slidesToScroll: 1
     };
   
     function Testimonials(container) {

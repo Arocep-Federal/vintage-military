@@ -8205,12 +8205,14 @@ a.color-swatch:hover{
     padding:45px;
 }
 
-.testimonials-slider__text cite{
+.testimonials-slider__text .author,
+.testimonials-slider__text .company
+{
     font-family:var(--typeHeaderPrimary),var(--typeHeaderFallback);
     font-weight:var(--typeHeaderWeight);
     letter-spacing:var(--typeHeaderSpacing);
     line-height:var(--typeHeaderLineHeight);
-    font-size:calc(var(--typeBaseSize) + 2px);
+    font-size:var(--typeBaseSize);
     font-style:normal;
   }
 

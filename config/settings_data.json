@@ -1128,12 +1128,26 @@
           "sort": "alphabetical",
           "grid": "3"
         }
+      },
+      "af_image_with_text_hPm3UM": {
+        "type": "af-image-with-text",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/AbilityOne_560_transparent.png",
+          "subtitle": "Honored to Support",
+          "title": "The Ability One Program",
+          "text": "<p>AbilityOne is the largest source of employment opportunities for people who are blind or have significant disabilities in the United States. Nonprofit organizations train and employ these individuals and provide quality products and services to the Federal Government at a fair market price. Contact Arocep to make a difference today.<\/p>",
+          "button_label": "Optional button",
+          "button_link": "",
+          "layout": "right",
+          "divider": false
+        }
       }
     },
     "content_for_index": [
       "1499790529450",
       "featured_collections_NdNCiE",
       "1498163293234",
+      "af_image_with_text_hPm3UM",
       "vintage_military_39Amwe",
       "image_carousel_floating_QDEH6y",
       "testimonials_FYBL7k",

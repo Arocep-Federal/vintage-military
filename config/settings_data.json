@@ -804,6 +804,27 @@
               "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
               "author": "Author's name"
             }
+          },
+          "testimonial_Lg7NtP": {
+            "type": "testimonial",
+            "settings": {
+              "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          },
+          "testimonial_qGhRBJ": {
+            "type": "testimonial",
+            "settings": {
+              "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          },
+          "testimonial_pTN7K7": {
+            "type": "testimonial",
+            "settings": {
+              "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
           }
         },
         "block_order": [
@@ -812,7 +833,10 @@
           "testimonial_nbHqF7",
           "testimonial_AmU8H8",
           "testimonial_M7FibA",
-          "testimonial_fajDkF"
+          "testimonial_fajDkF",
+          "testimonial_Lg7NtP",
+          "testimonial_qGhRBJ",
+          "testimonial_pTN7K7"
         ],
         "settings": {
           "background": "#111111",

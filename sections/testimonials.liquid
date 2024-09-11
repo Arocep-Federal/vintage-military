@@ -1,8 +1,12 @@
 {% style %}
   .shopify-section:has(.vintage-military-{{ section.id }}) {
-        background-color: {{section.settings.background}};
-        color: {{section.settings.fontcolor}};
-    }
+    background-color: {{section.settings.background}};
+    color: {{section.settings.fontcolor}};
+  }
+  .shopify-section:has(.vintage-military-{{ section.id }}) .section-header {
+  text-align:center;
+  }
+
 {% endstyle %}
 
 <div

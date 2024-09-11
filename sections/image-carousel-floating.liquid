@@ -73,7 +73,7 @@
               class="image-wrap text-spacing"
               style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;"
             > {% endcomment %}
-            <div style="width:325px; float:left">
+            <div style="width:325px; height:250px; overflow:hidden; float:left">
               {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
               <img
                 class="lazyload"

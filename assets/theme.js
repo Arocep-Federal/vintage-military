@@ -5278,7 +5278,7 @@ lazySizesConfig.expFactor = 4;
       accessibility: true,
       arrows: false,
       dots: true,
-      centermode:true,
+      centerMode:true,
       autoplay: false,
       touchThreshold: 20,
       slidesToShow: 2,

@@ -772,11 +772,20 @@
               "company": "Author's company"
             }
           },
+          "testimonial_nVDfyn": {
+            "type": "testimonial",
+            "settings": {
+              "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "rating": 45,
+              "author": "Author's name",
+              "company": "Author's company"
+            }
+          },
           "testimonial_8z6iwz": {
             "type": "testimonial",
             "settings": {
               "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-              "rating": 50,
+              "rating": 40,
               "author": "-name",
               "company": "Author's Company\/Department"
             }
@@ -874,6 +883,7 @@
         },
         "block_order": [
           "testimonial_zBen94",
+          "testimonial_nVDfyn",
           "testimonial_8z6iwz",
           "testimonial_3rVNV8",
           "testimonial_Xhagap",

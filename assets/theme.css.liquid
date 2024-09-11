@@ -8149,15 +8149,24 @@ a.color-swatch:hover{
 .no-js [data-animate_sections=false] [data-aos=background-media-text__animation] .background-media-text__video{
       opacity:1
   }
-
-[data-animate_sections=false] [data-aos=background-media-text__animation].loaded .background-media-text__video{
+  
+  [data-animate_sections=false] [data-aos=background-media-text__animation].loaded .background-media-text__video{
     animation:fade-in 1.5s cubic-bezier(0.26, 0.54, 0.32, 1) 0s forwards;
   }
+  
+  .quote-icon{
+    display:block;
+    margin:0 auto 20px;
+  }
+  
+  .testimonials-slide {
+    background-color:#091d33;
+    padding:20px;
+  }
 
-.quote-icon{
-  display:block;
-  margin:0 auto 20px;
-}
+  .testimonials-wrapper {
+    position: relative;
+  }
 
 .testimonials-slider__text{
   padding:0;
@@ -8218,11 +8227,6 @@ a.color-swatch:hover{
   cursor:grab;
 }
 
-
-.testimonials-slide {
-  background-color:#091d33;
-  padding:20px;
-}
 
 @media only screen and (min-width:590px){
   .testimonials-slider.slick-initialized[data-count="1"],.testimonials-slider.slick-initialized[data-count="2"],.testimonials-slider.slick-initialized[data-count="3"]{

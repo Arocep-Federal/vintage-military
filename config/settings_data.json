@@ -763,12 +763,20 @@
       "testimonials_FYBL7k": {
         "type": "testimonials",
         "blocks": {
+          "testimonial_zBen94": {
+            "type": "testimonial",
+            "settings": {
+              "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name",
+              "company": "Author's company"
+            }
+          },
           "testimonial_8z6iwz": {
             "type": "testimonial",
             "settings": {
               "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
               "author": "-name",
-              "company": "department"
+              "company": "Author's Company\/Department"
             }
           },
           "testimonial_3rVNV8": {
@@ -776,7 +784,15 @@
             "settings": {
               "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
               "author": "Author's name",
-              "company": ""
+              "company": "Author's Company"
+            }
+          },
+          "testimonial_Xhagap": {
+            "type": "testimonial",
+            "settings": {
+              "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name",
+              "company": "Author's company"
             }
           },
           "testimonial_nbHqF7": {
@@ -784,7 +800,7 @@
             "settings": {
               "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
               "author": "Author's name",
-              "company": ""
+              "company": "Author's Company\/Department"
             }
           },
           "testimonial_AmU8H8": {
@@ -792,7 +808,15 @@
             "settings": {
               "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
               "author": "Author's name",
-              "company": ""
+              "company": "Author's Company\/Department"
+            }
+          },
+          "testimonial_TxBADt": {
+            "type": "testimonial",
+            "settings": {
+              "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name",
+              "company": "Author's company"
             }
           },
           "testimonial_M7FibA": {
@@ -800,7 +824,7 @@
             "settings": {
               "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
               "author": "Author's name",
-              "company": ""
+              "company": "Author's Company\/Department"
             }
           },
           "testimonial_fajDkF": {
@@ -808,7 +832,7 @@
             "settings": {
               "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
               "author": "Author's name",
-              "company": ""
+              "company": "Author's Company\/Department"
             }
           },
           "testimonial_Lg7NtP": {
@@ -816,7 +840,7 @@
             "settings": {
               "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
               "author": "Author's name",
-              "company": ""
+              "company": "Author's Company\/Department"
             }
           },
           "testimonial_qGhRBJ": {
@@ -824,23 +848,26 @@
             "settings": {
               "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
               "author": "Author's name",
-              "company": ""
+              "company": "Author's Company\/Department"
             }
           },
           "testimonial_pTN7K7": {
             "type": "testimonial",
             "settings": {
               "testimonial": "<p>So good<\/p>",
-              "author": "IT Specialist : Department of the Navy",
-              "company": ""
+              "author": "Name",
+              "company": "Author's Company\/Department"
             }
           }
         },
         "block_order": [
+          "testimonial_zBen94",
           "testimonial_8z6iwz",
           "testimonial_3rVNV8",
+          "testimonial_Xhagap",
           "testimonial_nbHqF7",
           "testimonial_AmU8H8",
+          "testimonial_TxBADt",
           "testimonial_M7FibA",
           "testimonial_fajDkF",
           "testimonial_Lg7NtP",

@@ -13,8 +13,8 @@
   .vintage-military-{{ section.id }} .section-header h2 {
     margin:0;
   }
-  .vintage-military-{{ section.id }} .grid {
-    margin:0 0 0 150px;
+  .vintage-military-{{ section.id }} .partners-wrapper {
+    margin:0 0 0 30%;
   }
  
 
@@ -31,6 +31,9 @@
 {%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
 
 <div class="vintage-military-{{ section.id }}">
+
+  <div class="partners-wrapper">
+
   {%- if section.settings.title != blank -%}
     <div class="section-header text-{{ section.settings.align_text }}">
       <h2>{{ section.settings.title }}</h2>
@@ -102,6 +105,7 @@
       </div>
     {%- endfor -%}
   </div>
+</div>
 </div>
 
   

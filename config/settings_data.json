@@ -695,21 +695,6 @@
           "vintage_military_overlay": "none"
         }
       },
-      "vintage_military_dUhp4V": {
-        "type": "vintage-military",
-        "settings": {
-          "background": "#111111",
-          "fontcolor": "#ffffff",
-          "kicker": "Your Brand Story",
-          "headline": "Vintage Military Hero",
-          "subheadline": "with all the things...",
-          "text_align": "vertical-center horizontal-center",
-          "image": "shopify:\/\/shop_images\/flag.jpg",
-          "link": "",
-          "link_text": "Optional button",
-          "vintage_military_overlay": "none"
-        }
-      },
       "testimonials_FYBL7k": {
         "type": "testimonials",
         "blocks": {
@@ -1095,11 +1080,10 @@
       "featured_collections_NdNCiE",
       "1498163293234",
       "af_image_with_text_hPm3UM",
-      "1498501481980",
       "vintage_military_39Amwe",
       "image_carousel_floating_QDEH6y",
       "testimonials_FYBL7k",
-      "vintage_military_dUhp4V",
+      "1498501481980",
       "1499790633921",
       "16610163183f9ce193",
       "1608333620f9398daa",

@@ -8204,24 +8204,26 @@ a.color-swatch:hover{
   padding: 10px 0;
 }
 
-.testimonial-rating:before {
-  content: "";
+.testimonial-rating::before {
   display: block;
   width:532px;
   height:87px;
+  position:absolute;
+  top:0;
+  left:0;
 }
 
-.rating-50:before {
-  background-image:url("https://cdn.shopify.com/s/files/1/0666/7884/9714/files/stars_5.png?v=1726087239");
+.testimonial-rating::before.rating-50 {
+  content:url("https://cdn.shopify.com/s/files/1/0666/7884/9714/files/stars_5.png?v=1726087239");
 }
-.rating-45:before {
-  background-image:url("https://cdn.shopify.com/s/files/1/0666/7884/9714/files/stars_4-5.png?v=1726087239");
+.testimonial-rating::before.rating-45 {
+  content:url("https://cdn.shopify.com/s/files/1/0666/7884/9714/files/stars_4-5.png?v=1726087239");
 }
-.rating-40:before {
-  background-image:url("https://cdn.shopify.com/s/files/1/0666/7884/9714/files/stars_4.png?v=1726087239");
+.testimonial-rating::before.rating-40 {
+  content:url("https://cdn.shopify.com/s/files/1/0666/7884/9714/files/stars_4.png?v=1726087239");
 }
-.rating-35:before {
-  background-image:url("https://cdn.shopify.com/s/files/1/0666/7884/9714/files/stars_3-5.png?v=1726087239");
+.testimonial-rating::before.rating-35 {
+  content:url("https://cdn.shopify.com/s/files/1/0666/7884/9714/files/stars_3-5.png?v=1726087239");
 }
 
 .slick-slider .testimonials-slider__text {

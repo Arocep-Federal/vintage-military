@@ -36,7 +36,7 @@
             class="testimonials-slide testimonials-slide--{{ block.id }}"
             {% comment %} data-aos="row-of-{{ section.blocks.size }}" {% endcomment %}
             {{ block.shopify_attributes }}
-          >
+          ><div class="redstripe"><div class="whitestripe">
             <blockquote class="testimonials-slider__text">
               <span class="quote-icon">
                 <svg
@@ -71,6 +71,8 @@
                 <cite>{{ block.settings.author | escape }}</cite>
               {% endif %}
             </blockquote>
+          </div>
+          </div>
           </div>
         {%- endfor -%}
       </div>

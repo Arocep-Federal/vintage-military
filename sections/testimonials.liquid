@@ -75,6 +75,9 @@
             <cite>&mdash; {{ block.settings.author | escape }}</cite>
           {% endif %}
         </div>
+        {% if block.settings.company != blank %}
+          <cite>&mdash; {{ block.settings.company | escape }}</cite>
+        {% endif %}
           </div>
         {%- endfor -%}
       </div>
@@ -147,16 +150,17 @@
           "default": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>"
         },
         {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Author's image"
-        },
-        {
           "type": "text",
           "id": "author",
           "label": "Author",
           "default": "Author's name"
-        }
+        },
+        {
+          "type": "text",
+          "id": "company",
+          "label": "Author Compan",
+          "label": "Author's company"
+        },
       ]
     }
   ],

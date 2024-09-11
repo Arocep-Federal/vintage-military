@@ -34,6 +34,7 @@
     </div>
   {% endif %}
 
+
   <div class="grid grid--flush-bottom">
   {% comment %} <div class="grid {% unless section.blocks.size == 5 %}grid--uniform{% endunless %} grid--flush-bottom"> {% endcomment %}
     {% comment %} {%- liquid
@@ -53,7 +54,7 @@
       {%- else -%}
         {%- assign column_width = grid_item_width -%}
       {%- endif -%}
-      <div>
+      <div style="width:10000px;">
       {% comment %} <div
         class="grid__item {{ column_width }} text-{{ section.settings.align_text }}"
         {{ block.shopify_attributes }}

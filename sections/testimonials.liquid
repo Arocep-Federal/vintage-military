@@ -72,7 +72,7 @@
             </blockquote>
           </div>
           {% if block.settings.company != blank %}
-            <cite class="company">&mdash; {{ block.settings.company | escape }}</cite>
+            <cite class="company"> {{ block.settings.company | escape }}</cite>
           {% endif %}
         </div>
         {% if block.settings.author != blank %}

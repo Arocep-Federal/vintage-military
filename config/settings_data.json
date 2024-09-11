@@ -1010,6 +1010,7 @@
             "type": "image_block",
             "settings": {
               "enable_image": true,
+              "image": "shopify:\/\/shop_images\/11185057.jpg",
               "button_link": ""
             }
           },
@@ -1017,6 +1018,7 @@
             "type": "image_block",
             "settings": {
               "enable_image": true,
+              "image": "shopify:\/\/shop_images\/1012510506.jpg",
               "button_link": ""
             }
           }

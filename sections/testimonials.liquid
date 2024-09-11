@@ -71,11 +71,11 @@
             </blockquote>
           </div>
           {% if block.settings.company != blank %}
-            <cite class="company"> {{ block.settings.company | escape }}</cite>
+            <p class="company"> {{ block.settings.company | escape }}</p>
           {% endif %}
         </div>
         {% if block.settings.author != blank %}
-          <cite class="author">&mdash; {{ block.settings.author | escape }}</cite>
+          <p class="author">&mdash; {{ block.settings.author | escape }}</p>
         {% endif %}
       </div>
     {%- endfor -%}

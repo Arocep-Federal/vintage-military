@@ -794,7 +794,7 @@
             "type": "testimonial",
             "settings": {
               "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-              "rating": 50,
+              "rating": 35,
               "author": "Author's name",
               "company": "Author's Company"
             }

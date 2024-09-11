@@ -767,63 +767,72 @@
             "type": "testimonial",
             "settings": {
               "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-              "author": "Author's name"
+              "author": "-name",
+              "company": "department"
             }
           },
           "testimonial_3rVNV8": {
             "type": "testimonial",
             "settings": {
               "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-              "author": "Author's name"
+              "author": "Author's name",
+              "company": ""
             }
           },
           "testimonial_nbHqF7": {
             "type": "testimonial",
             "settings": {
               "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-              "author": "Author's name"
+              "author": "Author's name",
+              "company": ""
             }
           },
           "testimonial_AmU8H8": {
             "type": "testimonial",
             "settings": {
               "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-              "author": "Author's name"
+              "author": "Author's name",
+              "company": ""
             }
           },
           "testimonial_M7FibA": {
             "type": "testimonial",
             "settings": {
               "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-              "author": "Author's name"
+              "author": "Author's name",
+              "company": ""
             }
           },
           "testimonial_fajDkF": {
             "type": "testimonial",
             "settings": {
               "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-              "author": "Author's name"
+              "author": "Author's name",
+              "company": ""
             }
           },
           "testimonial_Lg7NtP": {
             "type": "testimonial",
             "settings": {
               "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-              "author": "Author's name"
+              "author": "Author's name",
+              "company": ""
             }
           },
           "testimonial_qGhRBJ": {
             "type": "testimonial",
             "settings": {
               "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-              "author": "Author's name"
+              "author": "Author's name",
+              "company": ""
             }
           },
           "testimonial_pTN7K7": {
             "type": "testimonial",
             "settings": {
               "testimonial": "<p>So good<\/p>",
-              "author": "IT Specialist : Department of the Navy"
+              "author": "IT Specialist : Department of the Navy",
+              "company": ""
             }
           }
         },
@@ -1077,10 +1086,10 @@
       "1498163293234",
       "vintage_military_39Amwe",
       "image_carousel_floating_QDEH6y",
+      "testimonials_FYBL7k",
       "af_hero_e8GLnN",
       "af_3_column_NaWXNd",
       "vintage_military_dUhp4V",
-      "testimonials_FYBL7k",
       "1499790633921",
       "16610163183f9ce193",
       "1608333620f9398daa",

@@ -53,11 +53,12 @@
       {%- else -%}
         {%- assign column_width = grid_item_width -%}
       {%- endif -%}
-      <div
+      <div>
+      {% comment %} <div
         class="grid__item {{ column_width }} text-{{ section.settings.align_text }}"
         {{ block.shopify_attributes }}
         data-aos="row-of-5"
-      >
+      > {% endcomment %}
         {% comment %} {%- if block.settings.enable_image -%} {% endcomment %}
 
 {% comment %} 

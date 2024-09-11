@@ -5281,7 +5281,7 @@ lazySizesConfig.expFactor = 4;
       centerMode:true,
       autoplay: false,
       touchThreshold: 20,
-      slidesToShow: 3,
+      slidesToShow: 5,
       slidesToScroll: 3
     };
   

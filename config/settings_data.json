@@ -270,6 +270,7 @@
           "1498501481980-0": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/helicopter.jpg",
               "focal_point": "center center",
               "slide_title1": "Simplified Acquisition",
               "slide_title2": "Enhances Buyer Experience"
@@ -677,60 +678,6 @@
           "mobile_height": "250px"
         }
       },
-      "af_3_column_NaWXNd": {
-        "type": "af-3-column",
-        "blocks": {
-          "text_block_zkmQHM": {
-            "type": "text_block",
-            "settings": {
-              "enable_image": false,
-              "title": "Teamwork",
-              "text": "<p>We collaborate with our customers, partners, and each other to achieve a common goal: supporting the brave men and women who protect our nation.<\/p>",
-              "button_label": "Optional button",
-              "enable_bgimg": true,
-              "button_link": ""
-            }
-          },
-          "text_block_rJWaGD": {
-            "type": "text_block",
-            "settings": {
-              "enable_image": false,
-              "title": "Excellence",
-              "text": "<p>We strive for perfection in every aspect of our work, knowing that our efforts directly impact the safety and success of our military personnel.<\/p>",
-              "button_label": "Optional button",
-              "enable_bgimg": true,
-              "button_link": ""
-            }
-          },
-          "text_block_dKhthC": {
-            "type": "text_block",
-            "settings": {
-              "enable_image": false,
-              "title": "Innovation",
-              "text": "<p>We leverage cutting-edge solutions and best practices to stay ahead of the evolving needs of our federal customers.<\/p>",
-              "button_label": "Optional button",
-              "enable_bgimg": true,
-              "button_link": ""
-            }
-          }
-        },
-        "block_order": [
-          "text_block_zkmQHM",
-          "text_block_rJWaGD",
-          "text_block_dKhthC"
-        ],
-        "disabled": true,
-        "custom_css": [
-
-        ],
-        "settings": {
-          "background": "#831b1b",
-          "fontcolor": "#ffffff",
-          "title": "Our Values",
-          "align_text": "left",
-          "divider": false
-        }
-      },
       "vintage_military_39Amwe": {
         "type": "vintage-military",
         "settings": {
@@ -1002,48 +949,6 @@
           "vintage_military_overlay": "none"
         }
       },
-      "slideshow_EjCy6E": {
-        "type": "slideshow",
-        "blocks": {
-          "image_LUeQNg": {
-            "type": "image",
-            "settings": {
-              "title": "Endless\npossibilities.",
-              "title_size": 80,
-              "subheading": "Bring your brand to life",
-              "link": "",
-              "link_text": "Optional button",
-              "text_align": "vertical-bottom horizontal-left",
-              "image": "shopify:\/\/shop_images\/glow-globe.png",
-              "focal_point": "center center"
-            }
-          },
-          "image_cgJdPY": {
-            "type": "image",
-            "settings": {
-              "title": "Two line\nslide titles.",
-              "title_size": 80,
-              "subheading": "And big, beautiful imagery",
-              "link": "",
-              "link_text": "Optional button",
-              "text_align": "vertical-bottom horizontal-left",
-              "focal_point": "center center"
-            }
-          }
-        },
-        "block_order": [
-          "image_LUeQNg",
-          "image_cgJdPY"
-        ],
-        "settings": {
-          "section_height": "650px",
-          "mobile_height": "auto",
-          "parallax": true,
-          "style": "dots",
-          "autoplay": true,
-          "autoplay_speed": 5
-        }
-      },
       "af_hero_e8GLnN": {
         "type": "af-hero",
         "settings": {
@@ -1054,12 +959,12 @@
           "button_label": "Optional button",
           "button_link": "shopify:\/\/pages\/contact",
           "text_align": "vertical-center horizontal-center",
-          "image": "shopify:\/\/shop_images\/glow-globe.png",
+          "image": "shopify:\/\/shop_images\/saluting.jpg",
           "focal_point": "20% 0",
           "color_border": "#111111",
           "height": 650,
           "parallax": true,
-          "vintage_military_overlay": "#34090a"
+          "vintage_military_overlay": "#292929"
         }
       },
       "image_carousel_floating_QDEH6y": {
@@ -1141,6 +1046,46 @@
           "layout": "right",
           "divider": false
         }
+      },
+      "logo_list_JeL3Dt": {
+        "type": "logo-list",
+        "blocks": {
+          "logo_image_tFAbmc": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "logo_image_RaUwwH": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "logo_image_3hd7m7": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "logo_image_rjEcxg": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "logo_image_tFAbmc",
+          "logo_image_RaUwwH",
+          "logo_image_3hd7m7",
+          "logo_image_rjEcxg"
+        ],
+        "settings": {
+          "title": "",
+          "logo_opacity": 76,
+          "divider": false
+        }
       }
     },
     "content_for_index": [
@@ -1151,14 +1096,13 @@
       "vintage_military_39Amwe",
       "image_carousel_floating_QDEH6y",
       "testimonials_FYBL7k",
-      "af_hero_e8GLnN",
-      "af_3_column_NaWXNd",
       "vintage_military_dUhp4V",
       "1499790633921",
       "16610163183f9ce193",
-      "1608333620f9398daa",
-      "slideshow_EjCy6E",
       "1498501481980",
+      "1608333620f9398daa",
+      "af_hero_e8GLnN",
+      "logo_list_JeL3Dt",
       "af_hero_KWwkAL"
     ]
   },

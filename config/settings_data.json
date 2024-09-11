@@ -767,6 +767,7 @@
             "type": "testimonial",
             "settings": {
               "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "rating": 50,
               "author": "Author's name",
               "company": "Author's company"
             }
@@ -775,6 +776,7 @@
             "type": "testimonial",
             "settings": {
               "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "rating": 50,
               "author": "-name",
               "company": "Author's Company\/Department"
             }
@@ -783,6 +785,7 @@
             "type": "testimonial",
             "settings": {
               "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "rating": 50,
               "author": "Author's name",
               "company": "Author's Company"
             }
@@ -791,6 +794,7 @@
             "type": "testimonial",
             "settings": {
               "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "rating": 50,
               "author": "Author's name",
               "company": "Author's company"
             }
@@ -799,6 +803,7 @@
             "type": "testimonial",
             "settings": {
               "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "rating": 50,
               "author": "Author's name",
               "company": "Author's Company\/Department"
             }
@@ -807,6 +812,7 @@
             "type": "testimonial",
             "settings": {
               "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "rating": 50,
               "author": "Author's name",
               "company": "Author's Company\/Department"
             }
@@ -815,6 +821,7 @@
             "type": "testimonial",
             "settings": {
               "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "rating": 50,
               "author": "Author's name",
               "company": "Author's company"
             }
@@ -823,6 +830,7 @@
             "type": "testimonial",
             "settings": {
               "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "rating": 45,
               "author": "Author's name",
               "company": "Author's Company\/Department"
             }
@@ -831,6 +839,7 @@
             "type": "testimonial",
             "settings": {
               "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "rating": 50,
               "author": "Author's name",
               "company": "Author's Company\/Department"
             }
@@ -839,6 +848,7 @@
             "type": "testimonial",
             "settings": {
               "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "rating": 50,
               "author": "Author's name",
               "company": "Author's Company\/Department"
             }
@@ -847,6 +857,7 @@
             "type": "testimonial",
             "settings": {
               "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "rating": 50,
               "author": "Author's name",
               "company": "Author's Company\/Department"
             }
@@ -855,6 +866,7 @@
             "type": "testimonial",
             "settings": {
               "testimonial": "<p>So good<\/p>",
+              "rating": 50,
               "author": "Name",
               "company": "Author's Company\/Department"
             }

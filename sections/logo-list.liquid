@@ -4,6 +4,12 @@
         background-color: {{section.settings.background}};
         color: {{section.settings.fontcolor}};
     }
+
+    .vintage-military-{{ section.id }} .section-header__title {
+      margin-top:50px;
+      text-align:  {{section.settings.align_text}}
+      color:
+    }
     
 {%- endstyle -%}
 
@@ -54,6 +60,22 @@
         "type": "text",
         "id": "title",
         "label": "Heading"
+      },
+      {
+        "type": "select",
+        "id": "align_text",
+        "label": "Text alignment",
+        "default": "center",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Centered"
+          }
+        ]
       },
       {
         "type": "color",

@@ -1168,8 +1168,7 @@
         ],
         "settings": {
           "title": "",
-          "logo_opacity": 76,
-          "divider": false
+          "background": "#383838"
         }
       }
     },

@@ -1,7 +1,7 @@
 
 {% style %}
   .shopify-section:has(.vintage-military-{{ section.id }}) {
-    background-image: url({{section.settings.background-img.src}});
+    background-image:url({{ section.settings.background-img | image_url:width:auto }});
     color: {{section.settings.fontcolor}};
   }
   .shopify-section:has(.vintage-military-{{ section.id }}) .section-header {

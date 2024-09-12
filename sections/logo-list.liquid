@@ -11,13 +11,13 @@
       color: white;
     }
 
-    .drawer {
+    .logo-drawer {
       height: {{section.settings.drawer_open_height }}px;
       overflow:hidden;
       transition:all 1s ease-in-out 0ms; 
     }
 
-    .drawer.open {
+    .logo-drawer.open {
       
     }
     .logo-bar {
@@ -35,7 +35,7 @@
         <h2 class="section-header__title">{{ section.settings.title | escape }}</h2>
       </div>
     {% endif %}
-    <div class="drawer">
+    <div class="logo-drawer">
     {% if section.blocks.size > 0 %}
       <div class="logo-bar logo-bar--{{ section.id }}">
         {%- for block in section.blocks -%}

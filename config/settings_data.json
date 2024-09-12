@@ -1032,13 +1032,139 @@
             "settings": {
               "link": ""
             }
+          },
+          "logo_image_XUf7AX": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "logo_image_KN9ENt": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "logo_image_CgtXLA": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "logo_image_c3teBn": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "logo_image_bJmU4U": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "logo_image_XiWcgd": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "logo_image_t9VQUF": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "logo_image_aNDqfR": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "logo_image_CEWyaG": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "logo_image_6hajrQ": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "logo_image_4VPqUf": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "logo_image_iPXqPA": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "logo_image_G6f9A3": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "logo_image_6mrmkp": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "logo_image_MV3m8T": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "logo_image_Jz3cqb": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "logo_image_xq7iwk": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
+          },
+          "logo_image_rVzBWb": {
+            "type": "logo_image",
+            "settings": {
+              "link": ""
+            }
           }
         },
         "block_order": [
           "logo_image_tFAbmc",
           "logo_image_RaUwwH",
           "logo_image_3hd7m7",
-          "logo_image_rjEcxg"
+          "logo_image_rjEcxg",
+          "logo_image_XUf7AX",
+          "logo_image_KN9ENt",
+          "logo_image_CgtXLA",
+          "logo_image_c3teBn",
+          "logo_image_bJmU4U",
+          "logo_image_XiWcgd",
+          "logo_image_t9VQUF",
+          "logo_image_aNDqfR",
+          "logo_image_CEWyaG",
+          "logo_image_6hajrQ",
+          "logo_image_4VPqUf",
+          "logo_image_iPXqPA",
+          "logo_image_G6f9A3",
+          "logo_image_6mrmkp",
+          "logo_image_MV3m8T",
+          "logo_image_Jz3cqb",
+          "logo_image_xq7iwk",
+          "logo_image_rVzBWb"
         ],
         "settings": {
           "title": "",

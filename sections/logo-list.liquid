@@ -1,11 +1,13 @@
 {%- style -%}
-.logo-bar--{{ section.id }} {
-  opacity: {{ section.settings.logo_opacity | divided_by: 100.0 }};
-}
+
+.shopify-section:has(.vintage-military-{{ section.id }}) {
+        background-color: {{section.settings.background}};
+        color: {{section.settings.fontcolor}};
+    }
+    
 {%- endstyle -%}
 
-{%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
-
+<div class="vintage-military-{{ section.id }}">
 <div class="page-width" data-aos="logo__animation">
   {%- if section.settings.title != blank -%}
     <div class="section-header">
@@ -39,8 +41,7 @@
     </div>
   {% endif %}
 </div>
-
-{%- if section.settings.divider -%}</div>{%- endif -%}
+</div>
 
 
 {% schema %}
@@ -55,21 +56,12 @@
         "label": "Heading"
       },
       {
-        "type": "range",
-        "id": "logo_opacity",
-        "label": "Logo opacity",
-        "default": 76,
-        "min": 0,
-        "max": 100,
-        "step": 2,
-        "unit": "%"
-      },
-      {
-        "type": "checkbox",
-        "id": "divider",
-        "label": "Show section divider",
-        "default": false
+        "type": "color",
+        "id": "background",
+        "label": "Background",
+        "default": "#111111"
       }
+
     ],
     "blocks": [
       {

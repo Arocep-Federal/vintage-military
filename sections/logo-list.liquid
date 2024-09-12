@@ -1,49 +1,56 @@
 {%- style -%}
 
-.shopify-section:has(.vintage-military-{{ section.id }}) {
-        background-color: {{section.settings.background}};
-        color: {{section.settings.font_color}};
+  .shopify-section:has(.vintage-military-{{ section.id }}) {
+    background-color: {{section.settings.background}};
+    color: {{section.settings.font_color}};
 
-}
-.vintage-military-{{ section.id }} {
-        border-bottom: 20px solid #091d33; 
+  } 
+  .vintage-military-{{ section.id }} {
+    position:relative;
+    border-bottom: 20px solid #091d33; 
 
-        padding:50px 0 0;
+    padding:50px 0 0;
 
-        -webkit-box-shadow: inset 0px -8px 25px 0px rgba(0,0,0,1);
-        -moz-box-shadow: inset 0px -8px 25px 0px rgba(0,0,0,1);
-        box-shadow: inset 0px -8px 25px 0px rgba(0,0,0,1);
-    }
+    -webkit-box-shadow: inset 0px -8px 25px 0px rgba(0,0,0,1);
+    -moz-box-shadow: inset 0px -8px 25px 0px rgba(0,0,0,1);
+    box-shadow: inset 0px -8px 25px 0px rgba(0,0,0,1);
+  }
 
-    .vintage-military-{{ section.id }}::after {
-      content:"";
-      width:50px;
-      height: 50px;
-      background-color:#091d33;
-      position:absolute;
-      left:calc(100% - 10px);
-      bottom:50px;
-    }
+  .vintage-military-{{ section.id }}::after {
+    content:"";
+    width:50px;
+    height: 50px;
+    background-color:#091d33;
+    position:absolute;
+    left:calc(50% - 25px);
+    bottom:0px;
+    -webkit-border-top-left-radius: 15px;
+    -webkit-border-top-right-radius: 15px;
+    -moz-border-radius-topleft: 15px;
+    -moz-border-radius-topright: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
 
-    .vintage-military-{{ section.id }} .section-header__title {
-      text-align:  {{section.settings.align_text}};
-    }
+  .vintage-military-{{ section.id }} .section-header__title {
+    text-align:  {{section.settings.align_text}};
+  }
 
-    .logo-drawer {
-      height: {{section.settings.drawer_open_height }}px;
-      overflow:hidden;
-      transition:all 1s ease-in-out 0ms;
-      padding-bottom:50px;
-    }
+  .logo-drawer {
+    height: {{section.settings.drawer_open_height }}px;
+    overflow:hidden;
+    transition:all 1s ease-in-out 0ms;
+    padding-bottom:50px;
+  }
 
-    .logo-drawer.open {
-      
-    }
+  .logo-drawer.open {
+    
+  }
 
-    .logo-bar {
-      /* min-height:1000px; */
-      height:100%;
-    }
+  .logo-bar {
+    /* min-height:1000px; */
+    height:100%;
+  }
 
     
 {%- endstyle -%}

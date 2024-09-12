@@ -2,14 +2,14 @@
 
 .shopify-section:has(.vintage-military-{{ section.id }}) {
         background-color: {{section.settings.background}};
-        color: {{section.settings.fontcolor}};
+        color: {{section.settings.font_color}};
 
 }
 .vintage-military-{{ section.id }} {
         border-bottom: 20px solid #091d33; 
 
         padding:50px 0;
-        
+
         -webkit-box-shadow: inset 0px -8px 25px 0px rgba(0,0,0,1);
         -moz-box-shadow: inset 0px -8px 25px 0px rgba(0,0,0,1);
         box-shadow: inset 0px -8px 25px 0px rgba(0,0,0,1);
@@ -17,7 +17,6 @@
 
     .vintage-military-{{ section.id }} .section-header__title {
       text-align:  {{section.settings.align_text}};
-      color: white;
     }
 
     .logo-drawer {
@@ -30,6 +29,7 @@
     .logo-drawer.open {
       
     }
+
     .logo-bar {
       /* min-height:1000px; */
       height:100%;
@@ -86,6 +86,12 @@
         "type": "text",
         "id": "title",
         "label": "Heading"
+      },
+      {
+        "type": "color",
+        "id": "font_color",
+        "label": "Headline Color",
+        "default": "#fff"
       },
       {
         "type": "select",

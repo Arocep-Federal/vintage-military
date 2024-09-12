@@ -1,5 +1,17 @@
 
+{% style %}
+  .shopify-section:has(.vintage-military-{{ section.id }}) {
+    background-image: url({{section.settings.background-img}});
+    color: {{section.settings.fontcolor}};
+  }
+  .shopify-section:has(.vintage-military-{{ section.id }}) .section-header {
+  text-align:center;
+  margin-bottom:100px;
+  }
 
+{% endstyle %}
+
+<div class="vintage-military-{{ section.id }}">
 <div class="page-width">
   {% capture image_layout %}
     <div class="feature-row__item">
@@ -52,7 +64,7 @@
     {% endif %}
   </div>
 </div>
-
+</div>
 
 {% schema %}
   {
@@ -110,10 +122,9 @@
         ]
       },
       {
-        "type": "checkbox",
-        "id": "divider",
-        "label": "Show section divider",
-        "default": false
+        "type": "image_picker",
+        "id": "background-img",
+        "label": "Background Image"
       }
     ],
     "presets": [

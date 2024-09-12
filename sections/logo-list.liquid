@@ -13,13 +13,18 @@
 
     .drawer {
       height: {{section.settings.drawer_open_height }};
-      
+      overflow:hidden;
+      transition:all 1s ease-in-out 0ms; 
+    }
+
+    .drawer.open {
+      height:auto;
     }
 
     
 {%- endstyle -%}
 
-<div class="vintage-military-{{ section.id }} drawer open-{{section.settings.drawer_open_height}}">
+<div class="vintage-military-{{ section.id }}>
   <div class="page-width" data-aos="logo__animation">
     {%- if section.settings.title != blank -%}
       <div class="section-header">

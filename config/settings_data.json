@@ -1003,7 +1003,7 @@
           "button_label": "Optional button",
           "button_link": "",
           "layout": "right",
-          "divider": false
+          "background-img": "shopify:\/\/shop_images\/bg-artillery-texture-2tone.jpg"
         }
       },
       "logo_list_JeL3Dt": {

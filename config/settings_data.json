@@ -1168,7 +1168,24 @@
         ],
         "settings": {
           "title": "Federal Agencies Served",
+          "align_text": "center",
+          "drawer_open_height": 410,
           "background": "#383838"
+        }
+      },
+      "vintage_military_kMHCXX": {
+        "type": "vintage-military",
+        "settings": {
+          "background": "#111111",
+          "fontcolor": "#ffffff",
+          "kicker": "Discover",
+          "headline": "The Arocep Advantage",
+          "subheadline": "Providing transparency of products and pricing with a low cost to match. Streamlined purchasing simplifies the acquisition experience while meeting your socio-economic goals.",
+          "text_align": "vertical-center horizontal-center",
+          "image": "shopify:\/\/shop_images\/saluting.jpg",
+          "link": "",
+          "link_text": "Optional button",
+          "vintage_military_overlay": "#292929"
         }
       }
     },
@@ -1182,6 +1199,7 @@
       "testimonials_FYBL7k",
       "1498501481980",
       "1499790633921",
+      "vintage_military_kMHCXX",
       "16610163183f9ce193",
       "1608333620f9398daa",
       "logo_list_JeL3Dt",

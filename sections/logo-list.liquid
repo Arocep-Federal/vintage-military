@@ -10,10 +10,16 @@
       text-align:  {{section.settings.align_text}};
       color: white;
     }
+
+    .drawer {
+      height: {{section.settings.drawer_open_height }};
+      
+    }
+
     
 {%- endstyle -%}
 
-<div class="vintage-military-{{ section.id }}">
+<div class="vintage-military-{{ section.id }} drawer open-{{section.settings.drawer_open_height}}">
   <div class="page-width" data-aos="logo__animation">
     {%- if section.settings.title != blank -%}
       <div class="section-header">
@@ -76,6 +82,15 @@
             "label": "Centered"
           }
         ]
+      },
+      { 
+        "type": "range",
+        "id": "drawer_open_height",
+        "min": 300,
+        "max": 600,
+        "step": 5,
+        "label": "Drawer Preview Height",
+        "default": 350
       },
       {
         "type": "color",

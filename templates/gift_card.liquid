@@ -24,7 +24,12 @@
     </div>
 
     <div class="giftcard__wrap">
-      <img src="{{ 'gift-card/card.jpg' | shopify_asset_url }}" alt="Gift card illustration">
+      {%- render 'image-element',
+        asset: 'gift-card/card.jpg',
+        type: 'asset',
+        alt: 'Gift card illustration',
+        sizeVariable: '588px',
+      -%}
 
 
       <div class="h1 giftcard__amount{% if initial_value_size > 6 %} giftcard__amount--medium{% endif %}">

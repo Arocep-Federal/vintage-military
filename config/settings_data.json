@@ -215,12 +215,12 @@
       "collection-template": {
         "type": "collection-template",
         "settings": {
-          "per_row": 4,
+          "per_row": 5,
           "collection_image_enable": true,
-          "parallax": true,
+          "parallax": false,
           "description_position": "top",
           "collection_subnav_style": "inline",
-          "collection_tags_style": "inline",
+          "collection_tags_style": "dropdown",
           "collection_sort_enable": true
         }
       },
@@ -363,13 +363,9 @@
           "product-image-row": {
             "type": "image-row",
             "settings": {
-              "image_1": "",
               "image_1_link": "",
-              "image_2": "",
               "image_2_link": "",
-              "image_3": "",
               "image_3_link": "",
-              "image_4": "",
               "image_4_link": "",
               "enable_gutter": false,
               "enable_zoom": true
@@ -378,7 +374,6 @@
           "product-text-and-image": {
             "type": "text-and-image",
             "settings": {
-              "image": "",
               "image_width": 500,
               "subtitle": "Improved",
               "title": "Image with text",
@@ -396,7 +391,6 @@
               "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
               "button_label": "",
               "button_link": "",
-              "image": "",
               "alignment": "center",
               "color_border": "#f4f4f4",
               "layout": "right",
@@ -410,19 +404,16 @@
               "title": "",
               "align_text": "left",
               "enable_image_1": true,
-              "image_1": "",
               "title_1": "Example title",
               "text_1": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
               "button_label_1": "",
               "button_link_1": "",
               "enable_image_2": true,
-              "image_2": "",
               "title_2": "Example title",
               "text_2": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
               "button_label_2": "",
               "button_link_2": "",
               "enable_image_3": true,
-              "image_3": "",
               "title_3": "Example title",
               "text_3": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
               "button_label_3": "",
@@ -999,8 +990,10 @@
           "image": "shopify:\/\/shop_images\/AbilityOne_560_transparent.png",
           "subtitle": "Honored to Support",
           "title": "The Ability One Program",
+          "fontcolor": "#fff",
           "text": "<p>AbilityOne is the largest source of employment opportunities for people who are blind or have significant disabilities in the United States. Nonprofit organizations train and employ these individuals and provide quality products and services to the Federal Government at a fair market price. Contact Arocep to make a difference today.<\/p>",
           "button_label": "Optional button",
+          "background": "#000",
           "button_link": "",
           "layout": "right",
           "background-img": "shopify:\/\/shop_images\/bg-artillery-texture-2tone.jpg"
@@ -1168,6 +1161,7 @@
         ],
         "settings": {
           "title": "Federal Agencies Served",
+          "font_color": "#fff",
           "align_text": "center",
           "drawer_open_height": 410,
           "background": "#383838"
